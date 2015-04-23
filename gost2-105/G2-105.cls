@@ -7,7 +7,7 @@
 \ProvidesClass{G2-105}[2013/05/22 v1.0 Non Standard LaTeX document class]
 
 \input{GostBase.clo}
-\RequirePackage[a4paper,left=30mm,right=20mm,top=20mm,bottom=20mm,headsep=0pt]{geometry}
+\RequirePackage[a4paper,left=30mm,right=20mm,top=20mm,bottom=20mm,headsep=0pt,footskip=24pt]{geometry}
 \RequirePackage{G2-105}
 \onehalfspacing
 
