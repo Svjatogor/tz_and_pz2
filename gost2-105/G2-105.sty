@@ -164,6 +164,22 @@
   \ifthenelse{\equal{#1}{}}{#2}{#1~#2}
 }
 
+% ФИО главного специалиста предприятия, степень/должность
+\newcommand{\VSTUFacilityExpertFullName}{}
+\newcommand{\VSTUFacilityExpertName}{}
+\newcommand{\VSTUFacilityExpertDegree}{}
+\newcommand{\VSTUFacilityExpertPost}{}
+\newcommand{\VSTUFacilityExpertDegreeAndName}{
+  \VSTUCombineDegreeAndName{\VSTUFacilityExpertDegree}{\VSTUFacilityExpertName}
+}
+% Сеттеры
+\newcommand*{\VSTUSetFacilityExpert}[4]{
+  \renewcommand{\VSTUFacilityExpertFullName}{#4}
+  \renewcommand{\VSTUFacilityExpertName}{#3}
+  \renewcommand{\VSTUFacilityExpertDegree}{#2}
+  \renewcommand{\VSTUFacilityExpertPost}{#1}
+}
+
 % ФИО заведующего кафедрой, степень/должность
 \newcommand{\VSTUHeadOfDepartmentFullName}{Фамилия Имя Отчество}
 \newcommand{\VSTUHeadOfDepartmentName}{И. О. Фамилия}

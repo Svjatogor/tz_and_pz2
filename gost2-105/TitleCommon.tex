@@ -12,12 +12,24 @@
 $\underset{\text{(#2)}}{\uline{\makebox[#1]{#3}}}$%
 }%
 
+% Box <<согласовано>>
+% Поскольку в бланке это поле изначально пустое,
+% используем костыль \vphantom{рЙ}, чтобы подогнать высоту.
+\newcommand{\VSTUTitleHeadAgreement}{
+\begin{minipage}[t]{12.5em}
+Согласовано\\
+\VSTUUnderlinedField{\textwidth}{должность гл. специалиста предприятия}{\vphantom{рЙ}\VSTUFacilityExpertPost}\\
+\VSTUUnderlinedField{2cm}{подпись}{\vphantom{рЙ \VSTUFacilityExpertDegreeAndName}}\hfill\VSTUUnderlinedField{4cm}{инициалы, фамилия}{\vphantom{рЙ}\VSTUFacilityExpertDegreeAndName}\\
+\vphantom{Й}<<\makebox[1.5cm]{\hrulefill}>> \makebox[3cm]{\hrulefill} \the\year
+\end{minipage}
+}
+
 % Box с подписью босса
 \newcommand{\VSTUTitleHeadApproval}{
-\begin{minipage}[c]{18.5em}
-УТВЕРЖДАЮ\\
-\VSTUHeadOfDepartmentPost\\
-\VSTUUnderlinedField{2cm}{подпись}{\vphantom{\VSTUHeadOfDepartmentDegreeAndName}}\hfill\VSTUUnderlinedField{7cm}{инициалы, фамилия}{\VSTUHeadOfDepartmentDegreeAndName}\\
+\begin{minipage}[t]{18em}
+Утверждаю\\
+\vspace{11pt}\VSTUHeadOfDepartmentPost\\
+\vspace{3.5pt}\VSTUUnderlinedField{2cm}{подпись}{\vphantom{\VSTUHeadOfDepartmentDegreeAndName}}\hfill\VSTUUnderlinedField{6.6cm}{инициалы, фамилия}{\VSTUHeadOfDepartmentDegreeAndName}\\
 <<\makebox[1.5cm]{\hrulefill}>> \makebox[3.5cm]{\hrulefill} \the\year
 \end{minipage}
 }
