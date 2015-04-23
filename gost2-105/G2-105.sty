@@ -48,12 +48,16 @@
 
 % Код документа (цифры) и его тип (выпускная работа бакалавра, магистерская диссертация и так далее)
 \newcommand{\VSTUDocumentCodeSuffix}{}
-\newcommand{\VSTUDocumentCode}{UNKNOWN-\VSTUDocumentCodeSuffix}
+\newcommand{\VSTUDocumentCode}{UNKNOWN}
+\newcommand{\VSTUDocumentSuffixedCode}{UNKNOWN-\VSTUDocumentCodeSuffix}
 \newcommand{\VSTUDocumentTypeDative}{выпускной работе бакалавра}   % в дательном падаже
 \newcommand{\VSTUDocumentTypeGenitive}{выпускную работу бакалавра} % в родительном падеже
 % Сеттеры
 \newcommand*{\VSTUSetDocumentCode}[1]{
   \renewcommand{\VSTUDocumentCode}{
+    {#1}
+  }
+  \renewcommand{\VSTUDocumentSuffixedCode}{
     \ifthenelse{\equal{\VSTUDocumentCodeSuffix}{}}
     {#1}
     {#1-\VSTUDocumentCodeSuffix}
@@ -262,7 +266,7 @@
 \fancypagestyle{plainhf} {
   \setlength\headheight{25pt}
   \fancyhf{}
-  \fancyhf[HCO,HCE]{\mdseries{\VSTUDocumentCode}\vspace{2mm}}
+  \fancyhf[HCO,HCE]{\mdseries{\VSTUDocumentSuffixedCode}\vspace{2mm}}
   \fancyhf[FCO,FCE]{\thepage}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
@@ -272,7 +276,7 @@
 \fancypagestyle{plainh} {
   \setlength\headheight{25pt}
   \fancyhf{}
-  \fancyhf[HCO,HCE]{\mdseries{\VSTUDocumentCode}\vspace{2mm}}
+  \fancyhf[HCO,HCE]{\mdseries{\VSTUDocumentSuffixedCode}\vspace{2mm}}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
