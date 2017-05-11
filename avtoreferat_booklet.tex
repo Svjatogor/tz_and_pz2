@@ -1,0 +1,6 @@
+% Печатать нечетные, затем четные страницы
+\documentclass{scrartcl}
+\usepackage{pdfpages}
+\begin{document}
+\includepdf[pages=-,booklet,turn=false,landscape]{avtoreferat.pdf}
+\end{document}

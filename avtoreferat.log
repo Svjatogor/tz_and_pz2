@@ -1,0 +1,2880 @@
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2017.4.24)  11 MAY 2017 20:06
+ restricted system commands enabled.
+**avtoreferat.tex
+(./avtoreferat.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
+(./G2-105.cls
+Document Class: G2-105 2013/05/22 v1.0 Non Standard LaTeX document class
+(./GostBase.clo (/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+))
+(./G2-105.sty
+Package: G2-105 2003/07/07 v1.00 General reqs. GOST 2.105-95
+
+(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty
+Package: luainputenc 2010/11/19 v0.973 inputenc package for LuaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count79
+)
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableExpl=\catcodetable6
+)
+Lua module: luainputenc 2010/05/10 0.97 Lua simple inputenc package.
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/lutf8.def
+File: lutf8.def 2010/05/10 v0.97 UTF-8 support for luainputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+\ucharcat@table=\catcodetable7
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count80
+\l_tmpa_int=\count81
+\l_tmpb_int=\count82
+\g_tmpa_int=\count83
+\g_tmpb_int=\count84
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count85
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count86
+\l__iow_target_count_int=\count87
+\l__iow_current_line_int=\count88
+\l__iow_current_word_int=\count89
+\l__iow_current_indentation_int=\count90
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen102
+\c_max_dim=\dimen103
+\l_tmpa_dim=\dimen104
+\l_tmpb_dim=\dimen105
+\g_tmpa_dim=\dimen106
+\g_tmpb_dim=\dimen107
+\c_zero_skip=\skip41
+\c_max_skip=\skip42
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count91
+\l_keys_choice_int=\count92
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count93
+\c__fp_middle_shift_int=\count94
+\c__fp_trailing_shift_int=\count95
+\c__fp_big_leading_shift_int=\count96
+\c__fp_big_middle_shift_int=\count97
+\c__fp_big_trailing_shift_int=\count98
+\c__fp_Bigg_leading_shift_int=\count99
+\c__fp_Bigg_middle_shift_int=\count100
+\c__fp_Bigg_trailing_shift_int=\count101
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box31
+\l__coffin_internal_dim=\dimen108
+\l__coffin_offset_x_dim=\dimen109
+\l__coffin_offset_y_dim=\dimen110
+\l__coffin_x_dim=\dimen111
+\l__coffin_y_dim=\dimen112
+\l__coffin_x_prime_dim=\dimen113
+\l__coffin_y_prime_dim=\dimen114
+\c_empty_coffin=\box32
+\l__coffin_aligned_coffin=\box33
+\l__coffin_aligned_internal_coffin=\box34
+\l_tmpa_coffin=\box35
+\l_tmpb_coffin=\box36
+\l__coffin_display_coffin=\box37
+\l__coffin_display_coord_coffin=\box38
+\l__coffin_display_pole_coffin=\box39
+\l__coffin_display_offset_dim=\dimen115
+\l__coffin_display_x_dim=\dimen116
+\l__coffin_display_y_dim=\dimen117
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen118
+\l__box_bottom_dim=\dimen119
+\l__box_left_dim=\dimen120
+\l__box_right_dim=\dimen121
+\l__box_top_new_dim=\dimen122
+\l__box_bottom_new_dim=\dimen123
+\l__box_left_new_dim=\dimen124
+\l__box_right_new_dim=\dimen125
+\l__box_internal_box=\box40
+\l__coffin_bounding_shift_dim=\dimen126
+\l__coffin_left_corner_dim=\dimen127
+\l__coffin_right_corner_dim=\dimen128
+\l__coffin_bottom_corner_dim=\dimen129
+\l__coffin_top_corner_dim=\dimen130
+\l__coffin_scaled_total_height_dim=\dimen131
+\l__coffin_scaled_width_dim=\dimen132
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count102
+\l__driver_tmp_box=\box41
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count103
+\l__xparse_m_args_int=\count104
+\l__xparse_mandatory_args_int=\count105
+\l__xparse_processor_int=\count106
+\l__xparse_v_nesting_int=\count107
+)
+Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2016/06/16 v2.7 OpenType layout system
+Lua module: luaotfload-main 2016/06/16 2.70003 OpenType layout system.
+Lua module: lualibs 2016-04-06 2.4 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2016-04-06 2.4 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/timofey/.texlive2016/texmf-var/luatex-cache/g
+eneric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/timofey/.tex
+live2016/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/timofey/.texlive2016/texmf-var
+/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2016-06-16.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2016-06-16.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.023”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/timofey/.texlive2016/texmf-var
+/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.136 seconds)
+Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
+X
+\l_fontspec_script_int=\count108
+\l_fontspec_language_int=\count109
+\l_fontspec_strnum_int=\count110
+\l__fontspec_tmpa_dim=\dimen133
+\l__fontspec_tmpb_dim=\dimen134
+\l__fontspec_tmpc_dim=\dimen135
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+NowhandlingfontencodingEU2...
+...noUTF-8mappingfileforfontencodingEU2
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | db : Font names database loaded from /home/timofey/.texlive2016/tex
+mf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /var/lib/t
+exmf/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(load luc: /home/timof
+ey/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-regular.
+luc)(load luc: /home/timofey/.texlive2016/texmf-var/luatex-cache/generic/fonts/o
+tl/lmroman12-regular.luc)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
+ther characters in Unicode lower plane
+
+(/usr/share/texmf/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+NowhandlingfontencodingT3...
+...noUTF-8mappingfileforfontencodingT3
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/lmromanslant12-reg
+ular.luc)(load luc: /home/timofey/.texlive2016/texmf-var/luatex-cache/generic/fo
+nts/otl/lmromanslant12-regular.luc)(compiling luc: /var/lib/texmf/luatex-cache/g
+eneric/fonts/otl/lmroman12-italic.luc)(load luc: /home/timofey/.texlive2016/texm
+f-var/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)(compiling luc: /var/l
+ib/texmf/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /home/timo
+fey/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/lmsans12-regular.
+luc)(load luc: /home/timofey/.texlive2016/texmf-var/luatex-cache/generic/fonts/o
+tl/lmsans12-regular.luc))
+\tipaTiiicode=\count111
+\tipasavetokens=\toks16
+\tipachecktokens=\toks17
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2016/08/17 v0.01g Graphics/Color for luaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count112
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 356.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'om' on line 358.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'om' on line 368.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'om' on line 378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'om' on line 388.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'om' on line 402.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'om' on line 410.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'om' on line 418.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'om' on line 426.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mom' on line 440.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mom' on line 456.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 470.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 533.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 544.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 552.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 560.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 581.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 598.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 603.
+.................................................
+\l__fontspec_tmp_int=\count113
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 2629.
+LaTeX Info: Redefining \slshape on input line 2634.
+LaTeX Info: Redefining \scshape on input line 2639.
+LaTeX Info: Redefining \upshape on input line 2644.
+\l__fontspec_em_int=\count114
+\l__fontspec_emdef_int=\count115
+LaTeX Info: Redefining \em on input line 2660.
+LaTeX Info: Redefining \emph on input line 2666.
+LaTeX Info: Redefining \- on input line 2670.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 2765.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 2769.
+.................................................
+))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2015/03/25 v1.42.4 Alternative to Babel for XeLaTeX and Lua
+LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count117
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+luatex-hyphen: using data file: /var/lib/texmf/tex/generic/config/language.dat.l
+ua
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia)(compiling luc: /var/lib/texm
+f/luatex-cache/generic/fonts/otl/times.luc)(load luc: /home/timofey/.texlive2016
+/texmf-var/luatex-cache/generic/fonts/otl/times.luc)
+\g__fontspec_family_times.ttf_int=\count118
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "File not fou
+nd: times.".
+luaotfload | aux : font no 22 (<unknown>) does not define feature smcp for scrip
+t cyrl with language dflt
+luaotfload | aux : no font with id 22(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/timesbd.luc)(load luc: /home/timofey/.texlive2016/texmf-var/l
+uatex-cache/generic/fonts/otl/timesbd.luc)
+luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
+t cyrl with language dflt
+luaotfload | aux : no font with id 23
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesi.ttf" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.28 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesi" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.28 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+luaotfload | aux : no font with id 0
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesbi.ttf" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.28 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesbi" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.28 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+luaotfload | aux : no font with id 0
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'times.ttf(0)' created for font 'times.ttf' with options
+. [Ligatures=TeX,Script=Cyrillic,Renderer=Basic,Ligatures=TeX,BoldFont=timesbd.t
+tf,ItalicFont=timesi.ttf,BoldItalicFont=timesbi.ttf].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[times]:mode=base;script=cyrl;language=DFLT;+tlig;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"[timesbd]:mode=base;script=cyrl;language=DFLT;+tlig;+tlig;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"[timesi]:mode=base;script=cyrl;language=DFLT;+tlig;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.:
+. <->"[timesbi]:mode=base;script=cyrl;language=DFLT;+tlig;+tlig;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/cour.luc)(load luc
+: /home/timofey/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl/cour.luc)
+luaotfload | aux : font no 25 (<unknown>) defines no feature for script cyrl
+luaotfload | aux : no font with id 25
+*************************************************
+* fontspec warning: "script-not-exist-latn"
+* 
+* Font 'cour.ttf' does not contain script 'Cyrillic'.
+* 'Latin' script used instead.
+*************************************************
+\g__fontspec_family_cour.ttf_int=\count119
+luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 25(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/courbd.luc)(load luc: /home/timofey/.texlive2016/texmf-var/lu
+atex-cache/generic/fonts/otl/courbd.luc)
+luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 26(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/couri.luc)(load luc: /home/timofey/.texlive2016/texmf-var/lua
+tex-cache/generic/fonts/otl/couri.luc)
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27(compiling luc: /var/lib/texmf/luatex-cache
+/generic/fonts/otl/courbi.luc)(load luc: /home/timofey/.texlive2016/texmf-var/lu
+atex-cache/generic/fonts/otl/courbi.luc)
+luaotfload | aux : font no 28 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 28
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'cour.ttf(0)' created for font 'cour.ttf' with options
+. [WordSpace={1,0,0},PunctuationSpace=WordSpace,Script=Cyrillic,Renderer=Basic,L
+igatures=TeX,BoldFont=courbd.ttf,ItalicFont=couri.ttf,BoldItalicFont=courbi.ttf]
+.
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[cour]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"[courbd]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
+. - 'italic' (m/it) with NFSS spec.:
+. <->"[couri]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"[courbi]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+.................................................
+luaotfload | aux : font no 22 (<unknown>) does not define feature smcp for scrip
+t cyrl with language dflt
+luaotfload | aux : no font with id 22
+luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
+t cyrl with language dflt
+luaotfload | aux : no font with id 23
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesi.ttf" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.48 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesi" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.48 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+luaotfload | aux : no font with id 0
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesbi.ttf" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.48 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "timesbi" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.48 ]{times.ttf}
+               
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+| Check the spelling, where the font is installed etc. etc.
+| 
+| When in doubt, ask someone for help!
+|...............................................
+
+luaotfload | aux : no font with id 0
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'times.ttf(1)' created for font 'times.ttf' with options
+. [Script=Cyrillic,Renderer=Basic,Ligatures=TeX,BoldFont=timesbd.ttf,ItalicFont=
+timesi.ttf,BoldItalicFont=timesbi.ttf].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[times]:mode=base;script=cyrl;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"[timesbd]:mode=base;script=cyrl;language=DFLT;+tlig;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"[timesi]:mode=base;script=cyrl;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.: <->"[timesbi]:mode=base;script=cyrl;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+luaotfload | aux : font no 25 (<unknown>) defines no feature for script cyrl
+luaotfload | aux : no font with id 25
+*************************************************
+* fontspec warning: "script-not-exist-latn"
+* 
+* Font 'cour.ttf' does not contain script 'Cyrillic'.
+* 'Latin' script used instead.
+*************************************************
+luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 25
+luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 26
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27
+luaotfload | aux : font no 28 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 28
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'cour.ttf(1)' created for font 'cour.ttf' with options
+. [Script=Cyrillic,Renderer=Basic,Ligatures=TeX,BoldFont=courbd.ttf,ItalicFont=c
+ouri.ttf,BoldItalicFont=courbi.ttf].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[cour]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
+. <->"[courbd]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"[couri]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
+. with NFSS spec.: <->"[courbi]:mode=base;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen138
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count120
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count121
+\leftroot@=\count122
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count123
+\DOTSCASE@=\count124
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen140
+LaTeX Font Info:    RedeclaringfontencodingOML on input line 634.
+LaTeX Font Info:    RedeclaringfontencodingOMS on input line 635.
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
+\dotsspace@=\muskip16
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
+\tag@help=\toks22
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
+\andhelp@=\toks23
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks24
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathastext/mathastext.sty
+Package: mathastext 2016/05/13 v1.3p Use the text font in math mode (JFB)
+
+
+Package mathastext Warning: Unknown option `roman'.
+
+\mst@exists@muskip=\muskip17
+\mst@forall@muskip=\muskip18
+\mst@prime@muskip=\muskip19
+\mst@do@nonletters=\toks26
+\mst@do@easynonletters=\toks27
+\mst@do@az=\toks28
+\mst@do@AZ=\toks29
+\symmtoperatorfont=\mathgroup4
+\symmtletterfont=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `norm
+al'
+(Font)                  EU2/times.ttf(0)/bx/n --> EU2/times.ttf(0)/bx/n on input
+ line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormalbold' in version `bold
+'
+(Font)                  EU2/times.ttf(0)/bx/n --> EU2/times.ttf(0)/bx/n on input
+ line 1095.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `normal'
+(Font)                  EU2/times.ttf(0)/m/n --> EU2/times.ttf(0)/m/n on input l
+ine 1095.
+LaTeX Font Info:    Overwriting symbol font `mtletterfont' in version `bold'
+(Font)                  EU2/times.ttf(0)/m/n --> EU2/times.ttf(0)/bx/n on input 
+line 1095.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `normal'
+
+(Font)                  EU2/times.ttf(0)/m/n --> EU2/times.ttf(0)/m/n on input l
+ine 1095.
+LaTeX Font Info:    Overwriting symbol font `mtoperatorfont' in version `bold'
+(Font)                  EU2/times.ttf(0)/m/n --> EU2/times.ttf(0)/bx/n on input 
+line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `normal'
+(Font)                  EU2/times.ttf(0)/bx/n --> EU2/times.ttf(0)/bx/n on input
+ line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathbf' in version `bold'
+(Font)                  EU2/times.ttf(0)/bx/n --> EU2/times.ttf(0)/bx/n on input
+ line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `normal'
+(Font)                  EU2/times.ttf(0)/m/it --> EU2/times.ttf(0)/m/it on input
+ line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathit' in version `bold'
+(Font)                  EU2/times.ttf(0)/m/it --> EU2/times.ttf(0)/bx/it on inpu
+t line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `normal'
+(Font)                  EU2/lmss/m/n --> EU2/lmss/m/n on input line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathsf' in version `bold'
+(Font)                  EU2/lmss/m/n --> EU2/lmss/bx/n on input line 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `normal'
+(Font)                  EU2/cour.ttf(0)/m/n --> EU2/cour.ttf(0)/m/n on input lin
+e 1095.
+LaTeX Font Info:    Overwriting math alphabet `\Mathtt' in version `bold'
+(Font)                  EU2/cour.ttf(0)/m/n --> EU2/cour.ttf(0)/bx/n on input li
+ne 1095.
+** Latin letters in the normal (resp. bold) math versions are now
+** set up to use the fonts EU2/times.ttf(0)/m(bx)/n
+** Other characters (digits, ...) and \log-like names will be
+** typeset with the n shape.
+** ! and ?
+** punctuation: , . : ; and \colon
+** minus as endash
+** \hbar
+** + and =
+** adding = ; and + to \nfss@catcodes
+** parentheses ( ) [ ] and slash /
+** alldelims: < > \backslash \setminus | \vert \mid \{ and \}
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 1389.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 1401.
+LaTeX Info: Redefining \models on input line 1410.
+** \# \mathdollar \% \& 
+** \i and \j 
+LaTeX Info: Redefining \i on input line 1981.
+LaTeX Info: Redefining \j on input line 1982.
+** \HUGE has been (re)-defined.
+** mathastext has declared larger sizes for subscripts.
+** To keep LaTeX defaults, use option `defaultmathsizes'.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/flafter.sty
+Package: flafter 2015/09/05 v1.3a Standard LaTeX floats after reference (FMi)
+Applying: [2015/01/01] float order in 2-column on input line 49.
+Already applied: [0000/00/00] float order in 2-column on input line 151.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box44
+\UL@hyphenbox=\box45
+\UL@skip=\skip50
+\UL@hook=\toks30
+\UL@height=\dimen147
+\UL@pe=\count132
+\UL@pixel=\dimen148
+\ULC@box=\box46
+Package: ulem 2012/05/18
+\ULdepth=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count133
+\float@exts=\toks31
+\float@box=\box47
+\@float@everytoks=\toks32
+\@floatcapt=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for russian
+
+hyph-ru.pat.txt
+Language russian was not yet loaded; created with id 4
+Language russian already loaded; id is 4
+Language russian already loaded; id is 4
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2013/04/30 Babel common definitions for shorthands
+ Taken verbatim from babel.def (2013/04/15 v3.9e)
+)
+Package polyglossia Info: Making " an active character on input line 41.
+)
+Package polyglossia Info: Default language is russian.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+)
+(./TitleCommon.tex) (./TitleAvtoreferat.tex) (./TitleCPOne.tex)
+(./TitleCPTwo.tex) (./TitleCWOne.tex) (./TitleCWTwo.tex)
+(./TitleDirectorsReview.tex) (./TitlePZ.tex) (./TitleRDOperator.tex)
+(./TitleRDProg.tex) (./TitleRDSysProg.tex) (./TitleRD.tex) (./TitleReview.tex)
+(./TitleSWOne.tex) (./TitleSWTwo.tex) (./TitleTP.tex) (./TitleTZ.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+
+Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is useles
+s on input line 367.
+
+
+Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is useles
+s on input line 367.
+
+\c@totalpages=\count134
+\c@totalfigures=\count135
+\c@totaltables=\count136
+\c@totalequations=\count137
+\c@totalbibs=\count138
+\c@totalappendices=\count139
+\GostAfterTitleSkip=\skip60
+\GostBetweenTitleSkip=\skip61
+\GostBeforeTitleSkip=\skip62
+\GostTitleIndent=\skip63
+\Gost@ChapterIndent=\skip64
+\Gost@MainChapterIndent=\skip65
+\Gost@TitleDropSkip=\skip66
+\c@chapter=\count140
+\c@section=\count141
+\c@subsection=\count142
+\c@subsubsection=\count143
+\GostItemGap=\skip67
+\GostItemIndent=\skip68
+\GostItemFirstIndent=\skip69
+\GostItemIndentSecond=\skip70
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+\abovecaptionskip=\skip71
+\belowcaptionskip=\skip72
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input line
+ 221.
+\captionlinewidth=\dimen157
+\realcaptionwidth=\dimen158
+Package caption2 Info: float package v1.2 (or newer) detected on input line 330.
+
+)
+\c@figure=\count144
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip73
+\LTright=\skip74
+\LTpre=\skip75
+\LTpost=\skip76
+\LTchunksize=\count145
+\LTcapwidth=\dimen159
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
+\c@table=\count150
+\LT@p@ftn=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count151
+\@cmidlb=\count152
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count153
+\@lastruleclass=\count154
+\@thisrulewidth=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen173
+\extrarowheight=\dimen174
+\NC@list=\toks34
+\extratabsurround=\skip77
+\backup@length=\skip78
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 147.
+)
+\everycr=\toks35
+\minrowclearance=\skip79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 2015/03/31 v1.1i Standard LaTeX option (left equation numbers)
+)
+\formulawhere=\skip80
+\c@appendix=\count155
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen175
+)
+\bibindent=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count156
+\Gm@cntv=\count157
+\c@Gm@tempcnt=\count158
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks36
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count159
+\lst@gtempboxa=\box53
+\lst@token=\toks37
+\lst@length=\count160
+\lst@currlwidth=\dimen185
+\lst@column=\count161
+\lst@pos=\count162
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count163
+\lst@lineno=\count164
+\lst@maxwidth=\dimen188
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count165
+\lst@skipnumbers=\count166
+\lst@framebox=\box54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count167
+\sf@farskip=\skip81
+\sf@captopadj=\dimen189
+\sf@capskip=\skip82
+\sf@nearskip=\skip83
+\c@subfigure=\count168
+\c@subfigure@save=\count169
+\c@lofdepth=\count170
+\c@subtable=\count171
+\c@subtable@save=\count172
+\sf@top=\skip84
+\sf@bottom=\skip85
+) (./settings.tex
+(./common.tex)) (./avtoreferat.aux
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Language russian already loaded; id is 4)
+\openout1 = avtoreferat.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 19.
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count173
+\scratchdimen=\dimen190
+\scratchbox=\box55
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen191
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks39
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks40
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+Package mathastext Info: current meaning of amsmath \resetMathstrut@ saved on in
+put line 19.
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Language russian already loaded; id is 4
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-40.36449pt
+* \headheight=25.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count179
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=702.78308pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-26.1381pt
+* \headheight=25.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\EU2/times.ttf(1)/m/n/14.4 Ра-бо-та вы-пол-не-на на ка-ф
+ед-ре «Про-грамм-ное обес-пе-че-ние
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [2
+
+]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Underfull \hbox (badness 1466) in paragraph at lines 45--47
+[]\EU2/times.ttf(1)/bx/n/14.4 Ак-ту-аль-ность те-мы ис-сл
+е-до-ва-ния\EU2/times.ttf(1)/m/n/14.4 . В ста-тье Фе-де-р
+аль-но-го за-ко-на
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 РФ от 24.06.1998 № 89-ФЗ «Об от-хо-
+дах про-из-вод-ства и по-треб-ле-ния»
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 сы-рья, иных из-де-лий или пр
+о-дук-тов, ко-то-рые об-ра-зо-ва-лись в про-це
+с-се
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 по-треб-ле-ния или про-из-вод-
+ства, а так-же про-дук-ция или то-ва-ры, ко-то-
+рые
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 по-треб-ля-ю-щая то-ва-ры и от-
+хо-ды) об-ра-зу-ет от-хо-ды, ко-то-рые долж-ны 
+быть
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 учте-ны. По-сле об-ра-зо-ва-ни
+я от-хо-дов они долж-ны быть на-прав-ле-ны на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 от-хо-дов и вы-воз му-со-ра до
+лж-ны осу-ществ-лять-ся ли-цен-зи-ро-ван-ны-м
+и
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 пред-при-я-ти-я-ми. В слу-чае 
+несо-блю-де-ния эко-ло-ги-че-ских тре-бо-ва-н
+ий при
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 45--47
+\EU2/times.ttf(1)/m/n/14.4 об-ра-ще-нии с от-хо-да-ми в с
+о-от-вет-ствии со ста-тьей 8.2 Ко-дек-са РФ об
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 слож-ность тре-бу-ют си-стем-
+но-го под-хо-да в во-про-сах управ-ле-ния от-
+хо-да-ми
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 и при-ме-не-ния со-вре-мен-ны
+х ин-фор-ма-ци-он-ных тех-но-ло-гий. Под си-ст
+е-мой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 стро-ить-ся не толь-ко на со-
+от-вет-ству-ю-щих нормативно-правовых ак-та
+х,
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 тра-ди-ци-он-ных тех-но-ло-ги-
+ях и ме-то-дах ми-ни-ми-за-ции от-хо-дов, но т
+ак-же
+ []
+
+
+Underfull \hbox (badness 6775) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 учи-ты-вать ре-ги-о-наль-ную 
+спе-ци-фи-ку эко-ло-ги-че-ских про-блем, при-
+ме-нять
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 эко-но-ми-че-ские ме-ха-низ-м
+ы, ис-поль-зо-вать со-вре-мен-ные ин-но-ва-ци-
+он-ные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 тех-но-ло-гии управ-ле-ния. К 
+та-ким тех-но-ло-ги-ям от-но-сят-ся раз-лич-н
+ые
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 спе-ци-а-ли-зи-ро-ван-ные про
+граммно-информационные си-сте-мы в сфе-ре
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 об-ра-ще-ния с от-хо-да-ми (си-
+сте-мы до-ку-мен-то-обо-ро-та, гео-ин-фор-ма-ц
+и-он-ные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 си-сте-мы, си-сте-мы под-держ-
+ки при-ня-тия ре-ше-ний и др.), в ко-то-рых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\EU2/times.ttf(1)/m/n/14.4 ис-поль-зу-ют-ся раз-лич-ные 
+под-хо-ды к под-держ-ке при-ня-тия ре-ше-ния 
+по
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [3]
+Underfull \hbox (badness 4036) in paragraph at lines 53--53
+[]\EU2/times.ttf(1)/m/n/14.4 про-ве-сти ана-лиз про-цес-с
+а и спе-ци-фи-ки управ-ле-ния от-хо-да-ми
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 53--53
+\EU2/times.ttf(1)/m/n/14.4 на пред-при-я-тии с це-лью по-
+стро-е-ния информационно-логической мо-де-
+ли
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 53--53
+\EU2/times.ttf(1)/m/n/14.4 пред-мет-ной об-ла-сти и фор-
+ми-ро-ва-ния тре-бо-ва-ний к мо-де-ли пред-ст
+ав-ле-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]\EU2/times.ttf(1)/m/n/14.4 раз-ра-бо-тать кон-цеп-цию п
+од-держ-ки при-ня-тия ре-ше-ний по
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\EU2/times.ttf(1)/m/n/14.4 управ-ле-нию от-хо-да-ми пред-
+при-я-тия на ос-но-ве он-то-ло-ги-че-ской мо-д
+е-ли
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]\EU2/times.ttf(1)/m/n/14.4 раз-ра-бо-тать он-то-ло-ги-ч
+е-скую мо-дель пред-мет-ной об-ла-сти и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]\EU2/times.ttf(1)/m/n/14.4 раз-ра-бо-тать и про-те-сти-
+ро-вать ин-тел-лек-ту-аль-ную си-сте-му
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\EU2/times.ttf(1)/m/n/14.4 под-держ-ки при-ня-тия ре-ше-
+ний по управ-ле-нию от-хо-да-ми на ос-но-ве
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\EU2/times.ttf(1)/bx/n/14.4 Пред-ме-том ис-сле-до-ва-ни
+я \EU2/times.ttf(1)/m/n/14.4 яв-ля-ет-ся ин-тел-лек-ту-ал
+ь-ная под-держ-ка
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 59--60
+[]\EU2/times.ttf(1)/bx/n/14.4 Ме-то-ды ис-сле-до-ва-ний\EU2/t
+imes.ttf(1)/m/n/14.4 . Для ре-ше-ния по-став-лен-ных з
+а-дач бы-ли
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+\EU2/times.ttf(1)/m/n/14.4 ис-поль-зо-ва-ны ме-то-ды ис-к
+ус-ствен-но-го ин-тел-лек-та, си-стем-но-го а
+на-ли-за,
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]\EU2/times.ttf(1)/m/n/14.4 Раз-ра-бо-та-на ин-те-гри-ро-
+ван-ная он-то-ло-ги-че-ская мо-дель
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\EU2/times.ttf(1)/m/n/14.4 пред-став-ле-ния зна-ний по у
+прав-ле-нию от-хо-да-ми пред-при-я-тия, ко-то-
+рая
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 62--62
+\EU2/times.ttf(1)/m/n/14.4 от-ли-ча-ет-ся от из-вест-ных 
+воз-мож-но-стью опи-са-ния дан-ных и зна-ний 
+об
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 62--62
+\EU2/times.ttf(1)/m/n/14.4 объ-ек-тах и субъ-ек-тах про-
+цес-са управ-ле-ния от-хо-да-ми на об-щем до-
+мене
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 62--62
+\EU2/times.ttf(1)/m/n/14.4 от-хо-да-ми на ос-но-ве ло-ги-
+че-ско-го вы-во-да на он-то-ло-ги-че-ской мо-д
+е-ли с
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 65--65
+[]\EU2/times.ttf(1)/m/n/14.4 Раз-ра-бо-тан-ные в дис-сер-
+та-ци-он-ной ра-бо-те мо-де-ли и ал-го-ритм
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\EU2/times.ttf(1)/m/n/14.4 поз-во-ля-ют про-из-во-дить г
+е-не-ра-цию эф-фек-тив-ной стра-те-гии управ-
+ле-ния
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 65--65
+\EU2/times.ttf(1)/m/n/14.4 от-хо-да-ми на пред-при-я-тии. 
+Ре-а-ли-зо-ван-ная си-сте-ма под-держ-ки при-
+ня-тия
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 65--65
+\EU2/times.ttf(1)/m/n/14.4 дан-ную си-сте-му, учи-ты-вая 
+осо-бен-но-сти раз-лич-ных субъ-ек-тов управ-
+ле-ния
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 65--65
+[]\EU2/times.ttf(1)/m/n/14.4 Ре-а-ли-зо-ван-ная си-сте-ма 
+под-держ-ки при-ня-тия ре-ше-ний про-шла
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 65--65
+[]\EU2/times.ttf(1)/m/n/14.4 Ра-бо-та вы-пол-не-на при по
+д-держ-ке РФ-ФИ в рам-ках про-ек-та
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\EU2/times.ttf(1)/m/n/14.4 №15-07-03541 «Ин-тел-лек-ту-аль-н
+ая под-держ-ка при-ня-тия ре-ше-ний по
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [5]
+Underfull \hbox (badness 2134) in paragraph at lines 69--70
+[]\EU2/times.ttf(1)/m/n/14.4 ин-те-гри-ро-ван-ная он-то-л
+о-ги-че-ская мо-дель пред-став-ле-ния зна-ни
+й,
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 69--70
+\EU2/times.ttf(1)/m/n/14.4 вклю-ча-ю-щая сле-ду-ю-щие ко
+м-по-нен-ты: ме-та-он-то-ло-гию пред-мет-ной о
+б-ла-сти
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 69--70
+\EU2/times.ttf(1)/m/n/14.4 управ-ле-ния от-хо-да-ми, он-т
+о-ло-гию от-хо-дов, он-то-ло-гию ме-то-дов упр
+ав-ле-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+\EU2/times.ttf(1)/m/n/14.4 до-кла-ды-ва-лись на меж-ду-н
+а-род-ной научно-практической кон-фе-рен-ци
+и
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 75--77
+\EU2/times.ttf(1)/m/n/14.4 «УМ-НИК» по Вол-го-град-ской 
+об-ла-сти, Вол-го-град 2015; XX ре-ги-о-наль-ной
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 75--77
+\EU2/times.ttf(1)/m/n/14.4 кон-фе-рен-ции мо-ло-дых ис-с
+ле-до-ва-те-лей Вол-го-град-ской об-ла-сти, В
+ол-го-град
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 78--79
+[]\EU2/times.ttf(1)/bx/n/14.4 Пуб-ли-ка-ции\EU2/times.ttf(1)/m/n/14.4
+ . По те-ме дис-сер-та-ции бы-ли опуб-ли-ко-ва-
+ны 4 на-уч-ные
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Underfull \hbox (badness 1052) in paragraph at lines 82--83
+[]\EU2/times.ttf(1)/m/n/14.4 В \EU2/times.ttf(1)/bx/n/14.4 пер-вой гл
+а-ве \EU2/times.ttf(1)/m/n/14.4 про-ве-ден ана-лиз со-вр
+е-мен-но-го со-сто-я-ния во-про-са,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]\EU2/times.ttf(1)/m/n/14.4 В на-сто-я-щее вре-мя на фе-д
+е-раль-ном уровне дей-ству-ет боль-шое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+\EU2/times.ttf(1)/m/n/14.4 ко-ли-че-ство нор-ма-тив-ных 
+пра-во-вых ак-тов, ре-гу-ли-ру-ю-щих об-ра-ще-
+ние с
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 84--85
+\EU2/times.ttf(1)/m/n/14.4 от-хо-да-ми про-из-вод-ства и 
+по-треб-ле-ния, цен-траль-ное ме-сто сре-ди к
+о-то-рых
+ []
+
+
+Underfull \hbox (badness 6775) in paragraph at lines 84--85
+\EU2/times.ttf(1)/m/n/14.4 про-из-вод-ства и по-треб-ле-
+ния». В нем опре-де-ля-ет-ся тер-мин управ-ле-
+ние
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 84--85
+\EU2/times.ttf(1)/m/n/14.4 от-хо-да-ми (или об-ра-ще-ние 
+с от-хо-да-ми) -- это де-я-тель-ность, в про-це
+с-се
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [6]
+Underfull \hbox (badness 1596) in paragraph at lines 86--87
+[]\EU2/times.ttf(1)/m/n/14.4 Си-сте-ма управ-ле-ния от-хо-
+да-ми РФ со-сто-ит из про-цес-са раз-ра-бот-к
+и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+\EU2/times.ttf(1)/m/n/14.4 и при-ня-тия необ-хо-ди-мой н
+ормативно-правовой ба-зы на всех уров-нях
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 86--87
+\EU2/times.ttf(1)/m/n/14.4 го-су-дар-ства, на-чи-ная с фе-
+де-раль-но-го уров-ня, а так-же про-из-вод-ст
+вен-ной
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 про-блем раз-лич-но-го со-дер-
+жа-ния. К ним от-но-сят-ся: от-сут-ствие пол-н
+ой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 ин-фор-ма-ции о по-сто-ян-но р
+ас-ту-щих объ-е-мах об-ра-зо-ван-ных от-хо-до
+в,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 свя-зан-ную с еже-год-ным уве-
+ли-че-ни-ем сто-и-мо-сти услуг, недо-стат-ком
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 ак-ту-аль-ных све-де-ний о ра
+с-по-ло-же-нии пе-ре-ра-ба-ты-ва-ю-щих пред-пр
+и-я-тий и
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 о неза-кон-ных свал-ках и эко-
+ло-ги-че-ских зо-нах где они рас-по-ла-га-ют-
+ся. Все
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 эти обо-зна-чен-ные труд-но-с
+ти ослож-ня-ют про-цесс при-ня-тия ре-ше-ний 
+по
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 «Чи-стый го-род») и си-сте-мы 
+под-держ-ки при-ня-тия ре-ше-ний (LCA-IWM,
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 SMART, SCOLDSS). Од-на-ко необ-хо-ди
+м под-ход, поз-во-ля-ю-щий учи-ты-вать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\EU2/times.ttf(1)/m/n/14.4 при-ни-ма-ю-ще-му ре-ше-ния, п
+ред-ла-гая воз-мож-ные стра-те-гии управ-ле-
+ния
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 90--91
+[]\EU2/times.ttf(1)/m/n/14.4 В на-сто-я-щей ра-бо-те рас-с
+мат-ри-ва-ет-ся толь-ко про-цесс под-держ-ки
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 90--91
+\EU2/times.ttf(1)/m/n/14.4 из-вле-че-ние зна-ний из баз 
+дан-ных, рас-суж-де-ния на ос-но-ве пре-це-де
+н-тов,
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 90--91
+\EU2/times.ttf(1)/m/n/14.4 рас-суж-де-ния на пра-ви-лах, 
+ис-кус-ствен-ные ней-рон-ные се-ти, ге-не-ти-
+че-ские
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+\EU2/times.ttf(1)/m/n/14.4 ал-го-рит-мы, ими-та-ци-он-ное 
+мо-де-ли-ро-ва-ние, ка-че-ствен-ное мо-де-ли-р
+о-ва-ние,
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\EU2/times.ttf(1)/m/n/14.4 Та-ким об-ра-зом, ак-ту-аль-н
+а про-бле-ма ав-то-ма-ти-за-ции под-держ-ки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\EU2/times.ttf(1)/m/n/14.4 при-ня-тия ре-ше-ний по управ-
+ле-нию от-хо-да-ми на пред-при-я-тии. Для
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 92--93
+\EU2/times.ttf(1)/m/n/14.4 ре-ше-ния дан-ной про-бле-мы 
+пред-став-ля-ет-ся пер-спек-тив-ным ис-поль-
+зо-ва-ние
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 92--93
+\EU2/times.ttf(1)/m/n/14.4 он-то-ло-ги-че-ских мо-де-лей 
+для опи-са-ния пред-мет-ной об-ла-сти управ-
+ле-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\EU2/times.ttf(1)/m/n/14.4 от-хо-да-ми. Ис-поль-зо-ва-ние 
+он-то-ло-гий поз-во-лит с по-мо-щью ре-а-ли-за-
+ции
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[]\EU2/times.ttf(1)/m/n/14.4 Во \EU2/times.ttf(1)/bx/n/14.4 вто-рой г
+ла-ве \EU2/times.ttf(1)/m/n/14.4 в ре-зуль-та-те про-ве-д
+ен-но-го об-зо-ра за-ко-нов,
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 94--95
+\EU2/times.ttf(1)/m/n/14.4 ре-гла-мен-ти-ру-ю-щих про-це
+сс об-ра-ще-ния с от-хо-да-ми, и ана-ли-за си-с
+те-мы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+[]\EU2/times.ttf(1)/m/n/14.4 На пер-вом уровне (ор-га-ни-
+за-ци-он-ном, ад-ми-ни-стра-тив-ном)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 пред-при-я-тие ори-ен-ти-ру-е
+т-ся на ис-пол-не-ние тре-бо-ва-ний, предъ-яв-
+ля-е-мых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 (консультативно-аналитичес
+ком) про-из-во-дит-ся аудит от-хо-дов и ана-л
+из
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 об-ра-ще-ния с от-хо-да-ми, тр
+е-бу-ю-щих улуч-ше-ния. Вы-ра-ба-ты-ва-ет-ся с
+тра-те-гия
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 или их эко-ло-ги-че-ски без-о
+пас-ное раз-ме-ще-ние. На тре-тьем уровне (ур
+овне
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 тех-но-ло-гий, тех-но-ло-гий п
+е-ре-ра-бот-ки от-хо-дов и т.д. На по-след-нем 
+уровне
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+\EU2/times.ttf(1)/m/n/14.4 кон-суль-ти-ро-ва-ния. Ито-го
+м про-цес-са фор-ми-ро-ва-ния яв-ля-ет-ся си-с
+те-ма
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [8]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/as_is.png, id=29, 772.0845pt x 5
+09.5035pt>
+File: figures/as_is.png Graphic file (type png)
+
+<use figures/as_is.png>
+Package luatex.def Info: figures/as_is.png used on input line 101.
+(luatex.def)             Requested size: 463.25429pt x 305.70445pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 5302) in paragraph at lines 106--107
+[]\EU2/times.ttf(1)/m/n/14.4 Да-лее сфор-му-ли-ро-ва-на з
+а-да-ча при-ня-тия ре-ше-ний по управ-ле-нию
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 106--107
+\EU2/times.ttf(1)/m/n/14.4 при-ня-тия ре-ше-ний, со-сто-я-
+щее из мно-же-ства чис-лен-ных и ка-че-ствен-
+ных
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 106--107
+\EU2/times.ttf(1)/m/n/14.4 па-ра-мет-ров: $[] = []$; $[]$ -- мно-
+же-ство аль-тер-на-тив,
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 106--107
+[]$\EU2/times.ttf(1)/m/n/14.4 ; $[]$ -- мно-же-ство кри-те-ри-
+ев, в ви-де ка-че-ствен-ных оце-нок
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 106--107
+\EU2/times.ttf(1)/m/n/14.4 за-да-ча ре-ша-ет-ся ли-цом, п
+ри-ни-ма-ю-щим ре-ше-ние (ЛПР), с при-вле-че-ни-
+ем
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 106--107
+\EU2/times.ttf(1)/m/n/14.4 в ка-че-стве кон-суль-тан-тов 
+экс-пер-тов по смеж-ным пред-мет-ным об-ла-с
+тям
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [9<./figures/as_is.png>]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/er.pdf, id=34, 461.725pt x 417.5
+6pt>
+File: figures/er.pdf Graphic file (type pdf)
+
+<use figures/er.pdf>
+Package luatex.def Info: figures/er.pdf used on input line 112.
+(luatex.def)             Requested size: 277.03714pt x 250.53792pt.
+
+Underfull \hbox (badness 6125) in paragraph at lines 117--118
+\EU2/times.ttf(1)/m/n/14.4 к мо-де-ли пред-став-ле-ния з
+на-ний и дан-ных. Для пред-став-ле-ния зна-ни
+й
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 117--118
+\EU2/times.ttf(1)/m/n/14.4 вы-бра-на он-то-ло-ги-че-ская 
+мо-дель. Он-то-ло-гия со-че-та-ет в се-бе до-с
+то-ин-ства
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 117--118
+\EU2/times.ttf(1)/m/n/14.4 ос-но-ве об-щих ком-по-нент, п
+од-дер-жи-ва-ет опи-са-ние и до-ступ к зна-ни-
+ям в
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 119--120
+\EU2/times.ttf(1)/m/n/14.4 ме-то-дов управ-ле-ния для ка
+ж-дой груп-пы от-хо-дов пред-при-я-тия. При э
+том
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 119--120
+\EU2/times.ttf(1)/m/n/14.4 эф-фек-тив-ной счи-та-ет-ся т
+а-кая стра-те-гия, в ко-то-рой вы-бран-ные ме-
+то-ды
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [10<./figures/er.pdf>]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+<figures/wm_concept.png, id=59, 801.59476pt x 570.933pt>
+File: figures/wm_concept.png Graphic file (type png)
+
+<use figures/wm_concept.png>
+Package luatex.def Info: figures/wm_concept.png used on input line 123.
+(luatex.def)             Requested size: 400.7964pt x 285.46579pt.
+
+Underfull \hbox (badness 7944) in paragraph at lines 128--129
+[]\EU2/times.ttf(1)/m/n/14.4 Про-цесс ге-не-ра-ции эф-фек-
+тив-ной стра-те-гии управ-ле-ния от-хо-да-ми
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 130--131
+\EU2/times.ttf(1)/m/n/14.4 ба-зу зна-ний (2) управ-ле-ния 
+от-хо-да-ми, вклю-ча-ю-щую он-то-ло-гию от-хо-
+дов,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+[]\EU2/times.ttf(1)/m/n/14.4 На ос-но-ве раз-ра-бо-тан-но
+й он-то-ло-гии субъ-ек-тов управ-ле-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+\EU2/times.ttf(1)/m/n/14.4 бюд-жет, гео-гра-фи-че-ское п
+о-ло-же-ние, от-хо-ды пред-при-я-тия, соб-стве
+н-ные
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 133--134
+[]\EU2/times.ttf(1)/m/n/14.4 На ос-но-ве про-фи-ля пред-п
+ри-я-тия (5), он-то-ло-гии от-хо-дов (6),
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [11<./figures/wm_concept.png>]
+Underfull \hbox (badness 3000) in paragraph at lines 137--138
+\EU2/times.ttf(1)/m/n/14.4 раз-ра-бо-тан-ной си-сте-мы, л
+и-бо с по-мо-щью ре-дак-то-ра он-то-ло-гий со-
+глас-но
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 137--138
+\EU2/times.ttf(1)/m/n/14.4 ме-то-ди-ке со-зда-ния и рас-ш
+и-ре-ния ба-зы зна-ний. Эта-пы 5-9 вы-пол-ня-ют-
+ся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+\EU2/times.ttf(1)/m/n/14.4 си-сте-мой с ис-поль-зо-ва-ни-
+ем ло-ги-че-ско-го вы-во-да на он-то-ло-ги-ях 
+и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]\EU2/times.ttf(1)/m/n/14.4 В \EU2/times.ttf(1)/bx/n/14.4 тре-тьей г
+ла-ве \EU2/times.ttf(1)/m/n/14.4 на ос-но-ве про-ве-ден-н
+о-го ана-ли-за пред-мет-ной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\EU2/times.ttf(1)/m/n/14.4 об-ла-сти, вы-яв-лен-ных тре-б
+о-ва-ний к мо-де-ли пред-став-ле-ния зна-ний 
+и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\EU2/times.ttf(1)/m/n/14.4 Для ин-те-гра-ции ком-по-нен-
+тов опи-са-ния объ-ек-тов и субъ-ек-тов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+\EU2/times.ttf(1)/m/n/14.4 пред-мет-ной об-ла-сти управ-
+ле-ния от-хо-да-ми и от-но-ше-ний меж-ду ни-ми,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]\EU2/times.ttf(1)/m/n/14.4 он-то-ло-гия субъ-ек-тов, вз
+а-и-мо-дей-ству-ю-щих с от-хо-да-ми
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 143--143
+[]\EU2/times.ttf(1)/m/n/14.4 он-то-ло-гия ме-то-дов управ-
+ле-ния от-хо-да-ми, опи-сы-ва-ю-щая ме-то-ды
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+\EU2/times.ttf(1)/m/n/14.4 (пе-ре-ра-бот-ка, ути-ли-за-ци
+и, транс-пор-ти-ров-ки и т.д.) и их сто-и-мость,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[]\EU2/times.ttf(1)/m/n/14.4 где $[]$ -- ме-та-он-то-ло-ги-че-
+ская мо-дель пред-мет-ной об-ла-сти;
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 147--148
+\EU2/times.ttf(1)/m/n/14.4 в ме-та-он-то-ло-гию, $[][]$ -- он-
+то-ло-гия от-хо-дов, $[][]$ -- он-то-ло-гия ме-то-
+дов
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 147--148
+\EU2/times.ttf(1)/m/n/14.4 управ-ле-ния от-хо-да-ми, $[][]$ -
+- он-то-ло-гия субъ-ек-тов управ-ле-ния от-хо-
+да-ми;
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [12]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/metaontology.pdf, id=68, 322.203
+75pt x 253.94875pt>
+File: figures/metaontology.pdf Graphic file (type pdf)
+
+<use figures/metaontology.pdf>
+Package luatex.def Info: figures/metaontology.pdf used on input line 151.
+(luatex.def)             Requested size: 257.76334pt x 203.15926pt.
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+<figures/waste_ontology.pdf, id=69, 611.28375pt x 580.1675pt>
+File: figures/waste_ontology.pdf Graphic file (type pdf)
+
+<use figures/waste_ontology.pdf>
+Package luatex.def Info: figures/waste_ontology.pdf used on input line 166.
+(luatex.def)             Requested size: 366.77307pt x 348.10316pt.
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [13<./figures/metaontology.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+[]\EU2/times.ttf(1)/m/n/14.4 При-мер та-ко-го опре-де-ле-
+ния ви-да от-хо-да с ис-поль-зо-ва-ни-ем
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [14<./figures/waste_ontology.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+[]\EU2/times.ttf(1)/m/n/14.4 Данное правило можно интер
+претировать следующим образом:
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 201--202
+\EU2/times.ttf(1)/m/n/14.4 DL-правил) и подробно описаны 
+в диссертации. Онтология субъектов
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 201--202
+\EU2/times.ttf(1)/m/n/14.4 работы онтология включает в 
+себя 794 аксиомы (axiom), из которых 566
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 203--204
+\EU2/times.ttf(1)/m/n/14.4 эффективной стратегии упра
+вления отходами предприятия. Пусть задан
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 207--208
+[]\EU2/times.ttf(1)/m/n/14.4 где $[]$ --- предприятие, явля
+ющиеся экземпляром класа $[][][][][][][]$
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [15]
+Underfull \hbox (badness 4060) in paragraph at lines 209--210
+[]\EU2/times.ttf(1)/m/n/14.4 На основании возможных по 
+закону РФ методов управления
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 209--210
+\EU2/times.ttf(1)/m/n/14.4 отходами, разбить множество 
+отходов $[][]$ на подмножества $[][]$ (см.
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 210--211
+[]\EU2/times.ttf(1)/m/n/14.4 Найти методы управления от
+ходами, обладающие минимальной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\EU2/times.ttf(1)/m/n/14.4 стоимостью, то есть экономи
+ческой стоимостью услуги и суммой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]\EU2/times.ttf(1)/m/n/14.4 Сформировать эффективную 
+стратегию управления отходами
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 211--212
+\EU2/times.ttf(1)/m/n/14.4 предприятия: $[][][] = {[] , ...,  [] , .
+..,  []}$, где
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/task_group_method.png, id=87, 42
+6.99525pt x 454.69875pt>
+File: figures/task_group_method.png Graphic file (type png)
+
+<use figures/task_group_method.png>
+Package luatex.def Info: figures/task_group_method.png used on input line 220.
+(luatex.def)             Requested size: 230.574pt x 245.53366pt.
+
+<figures/task_best_method.png, id=88, 361.95226pt x 467.94826pt>
+File: figures/task_best_method.png Graphic file (type png)
+
+<use figures/task_best_method.png>
+Package luatex.def Info: figures/task_best_method.png used on input line 225.
+(luatex.def)             Requested size: 195.4513pt x 252.6883pt.
+
+Underfull \hbox (badness 7099) in paragraph at lines 230--231
+[]\EU2/times.ttf(1)/m/n/14.4 Далее в диссертации описан
+а методика создания и расширения
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [16<./figures/task_group_method.png><./fig
+ures/task_best_method.png>]
+Underfull \hbox (badness 3735) in paragraph at lines 232--233
+[]\EU2/times.ttf(1)/m/n/14.4 Алгоритм генерации эффект
+ивной стратегии управления отходами
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 232--233
+\EU2/times.ttf(1)/m/n/14.4 на предприятии с использова
+нием логического вывода на онтологиях и
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 232--233
+\EU2/times.ttf(1)/m/n/14.4 В частности, для получения в
+озможных методов управления отходами
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Underfull \hbox (badness 3088) in paragraph at lines 246--247
+\EU2/times.ttf(1)/m/n/14.4 переменных SPARQL-запроса: ?title -
+- наименование способа управления
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 246--247
+\EU2/times.ttf(1)/m/n/14.4 отходами, ?type -- тип метода уп
+равления отходами, ?waste -- конкретный
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 246--247
+\EU2/times.ttf(1)/m/n/14.4 отход для которго происходи
+т выборка (:id1, ... :idn -- экземпляры класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[]\EU2/times.ttf(1)/m/n/14.4 Таким образом, разработанн
+ый алгоритм позволяет генерировать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\EU2/times.ttf(1)/m/n/14.4 эффективную стратегию упра
+вления отходами на основании данных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\EU2/times.ttf(1)/m/n/14.4 о предприятии, его отходах и 
+возможных способах управления ими.
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 250--251
+\EU2/times.ttf(1)/m/n/14.4 Виды отходов, а также специф
+ика методов управления отходами можгут
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\EU2/times.ttf(1)/m/n/14.4 быть расширены через графич
+еский интерфейс системы или путем
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 250--251
+\EU2/times.ttf(1)/m/n/14.4 в диссертации, без необходи
+мости внесения изменений в программные
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/algorithm.pdf, id=95, 507.8975pt
+ x 634.37pt>
+File: figures/algorithm.pdf Graphic file (type pdf)
+
+<use figures/algorithm.pdf>
+Package luatex.def Info: figures/algorithm.pdf used on input line 254.
+(luatex.def)             Requested size: 304.74086pt x 380.62492pt.
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [17]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+\EU2/times.ttf(1)/m/n/14.4 стратегии управления отход
+ами на основе разработанных моделей и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+\EU2/times.ttf(1)/m/n/14.4 принятия решений (см. рисуно
+к 8[]), включающая уровни интерфейса,
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 261--262
+\EU2/times.ttf(1)/m/n/14.4 системе и доступа к ресурса
+м; 3 --- веб-маршруты до ресурсов системы;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+\EU2/times.ttf(1)/m/n/14.4 4-7 --- обработка HTTP запросов н
+а соответствующих контроллерах
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 261--262
+\EU2/times.ttf(1)/m/n/14.4 12 --- взаимодействие с програ
+ммной платформой Stardog через ее API
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 261--262
+\EU2/times.ttf(1)/m/n/14.4 для осуществления логическ
+ого вывода на онтологиях и поиска знаний с
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 261--262
+\EU2/times.ttf(1)/m/n/14.4 использованием семантическ
+их запросов; 13 --- взаимодействие с базой
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [18<./figures/algorithm.pdf>]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+<figures/component.png, id=110, 524.55975pt x 437.2335pt>
+File: figures/component.png Graphic file (type png)
+
+<use figures/component.png>
+Package luatex.def Info: figures/component.png used on input line 265.
+(luatex.def)             Requested size: 367.18932pt x 306.06136pt.
+
+Underfull \hbox (badness 2932) in paragraph at lines 270--271
+[]\EU2/times.ttf(1)/m/n/14.4 Система поддержки приняти
+я решений обладает клиент-серверной
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 270--271
+\EU2/times.ttf(1)/m/n/14.4 знаний и проведения логичес
+кого вывода на онтологиях используются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\EU2/times.ttf(1)/m/n/14.4 программная платформа Stardog. 
+Сгенерированная системой стратегия
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\EU2/times.ttf(1)/m/n/14.4 управления отходами отобра
+жается пользователю в браузере в виде
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 270--271
+\EU2/times.ttf(1)/m/n/14.4 структурированного списка 
+в соответствии с предприятием, его отходам
+и
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 <figures/screen_strategy_4.png, id=111, 9
+18.43124pt x 278.2395pt>
+File: figures/screen_strategy_4.png Graphic file (type png)
+
+<use figures/screen_strategy_4.png>
+Package luatex.def Info: figures/screen_strategy_4.png used on input line 290.
+(luatex.def)             Requested size: 459.2145pt x 139.1194pt.
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [19<./figures/component.png>]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+<figures/screen_strategy_3.png, id=116, 913.61325pt x 389.0535pt>
+File: figures/screen_strategy_3.png Graphic file (type png)
+
+<use figures/screen_strategy_3.png>
+Package luatex.def Info: figures/screen_strategy_3.png used on input line 297.
+(luatex.def)             Requested size: 456.80551pt x 194.52626pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
+[]\EU2/times.ttf(1)/m/n/14.4 Тестирование разработанно
+го алгоритма генерации стратегии
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 302--305
+\EU2/times.ttf(1)/m/n/14.4 интеллектуальной системы п
+оддержки принятия решений; сравнительный
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 302--305
+\EU2/times.ttf(1)/m/n/14.4 управления отходами. Резуль
+таты тестирования показали, что выбранные
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [20<./figures/screen_strategy_4.png><./fig
+ures/screen_strategy_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]\EU2/times.ttf(1)/m/n/14.4 В \EU2/times.ttf(1)/bx/n/14.4 за-клю-че-
+нии \EU2/times.ttf(1)/m/n/14.4 диссертации приводятся 
+основные научные и
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Underfull \hbox (badness 1122) in paragraph at lines 310--311
+[]\EU2/times.ttf(1)/m/n/14.4 В процессе работы были реш
+ены следующие задачи и достигнуты
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 информационных систем, испо
+льзуемых при принятии решений по
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 принятия решений по управле
+нию отходами. Основным недостатком
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 существующего процесса явл
+яется сложность и трудоемкость процесса
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 принятия верного решения эк
+пертом в области управления отходами на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 предприятии. Построена инфо
+рмационно-логическая модель предметной
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 области, включающая функцио
+нальную и объектную модели. Выявлены
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 автоматизированной системы 
+для решения задачи генерации стратегии
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]\EU2/times.ttf(1)/m/n/14.4 Разработана интегрированн
+ая онтологическая модель
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 представления знаний предм
+етной области, состоящая из следующих
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 компонентов, объединенных м
+етаонтологией: (1) онтология отходов; (2)
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 управления отходами на пред
+приятии на основе логического вывода на
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [21]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 поддержки принятия решений 
+для генерации эффективной стратегии
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 управления отходами на пред
+приятии на основе описанных моделей и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 алгоритма. Проведено тестир
+ование системы и проверка соответствия
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 полученой стратегии управл
+ения отходами с данными по учреждению
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 примененным учреждением ГБ
+УЗ «Николаевское ЦРБ». Данный результат
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 311--311
+\EU2/times.ttf(1)/m/n/14.4 позволяет сделать вывод об 
+эффективности разработанных моделей и
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [22]
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Underfull \hbox (badness 1062) in paragraph at lines 321--321
+\EU2/times.ttf(1)/m/n/14.4 Аникин А.В. // Изв. ВолгГТУ. Се
+рия «Актуальные проблемы управления,
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 321--321
+\EU2/times.ttf(1)/m/n/14.4 вычислительной техники и ин
+форматики в технических системах». Вып.
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 324--324
+[]\EU2/times.ttf(1)/m/n/14.4 Руднев, Р.Ю. Онтологический 
+подход к поддержке принятия
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 324--324
+\EU2/times.ttf(1)/m/n/14.4 Кульцова М.Б., Жукова И.Г. // XII 
+Международная научно-практическая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]\EU2/times.ttf(1)/m/n/14.4 Руднев, Р.Ю. Концепция подд
+ержки принятия решений по
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 324--324
+\EU2/times.ttf(1)/m/n/14.4 и имитационного моделирова
+ния / Руднев Р.Ю., Кульцова М.Б. // XX
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 324--324
+[]\EU2/times.ttf(1)/m/n/14.4 Kultsova M. An ontology-based approach to intellig
+ent support of
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 324--324
+\EU2/times.ttf(1)/m/n/14.4 Zhukova I. // CIT DS Creativity in Intelligent Techn
+ologies Data Science,
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 324--324
+\EU2/times.ttf(1)/m/n/14.4 The 7th International Conference on Information, Int
+elligence, Systems and
+ []
+
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30 [23
+
+] (./avtoreferat.aux
+luatex-hyphen: loading patterns and exceptions for: russian (\language4)
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script cyrl wit
+h language rus
+luaotfload | aux : no font with id 30
+Language russian already loaded; id is 4))
+
+Here is how much of LuaTeX's memory you used:
+ 22173 strings out of 495118
+ 125171,552014 words of node,token memory allocated
+ 1509 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 107 glue, 1 kern, 65 attribute, 68 glue_spec, 65 at
+tribute_list, 1 write nodes
+   avail lists: 1:1,2:505,3:192,4:22,5:459,6:2854,7:454,8:52,9:250,10:15,11:575
+ 24538 multiletter control sequences out of 65536+600000
+ 50 fonts using 8327919 bytes
+ 67i,10n,96p,2839b,495s stack positions out of 5000i,500n,10000p,200000b,100000s
+<./timesbd.ttf><./times.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on avtoreferat.pdf (23 pages, 1127140 bytes).
+
+PDF statistics: 156 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

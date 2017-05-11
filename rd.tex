@@ -1,0 +1,442 @@
+\documentclass[a4paper]{G2-105}
+\usepackage[utf8]{luainputenc}
+
+\input{settings.tex}
+
+\begin{document}
+
+%
+\VSTUSetDocumentNumbersPrefix{Ж.}
+\VSTUInitializeRD
+%
+
+\abstract{Аннотация}
+
+Документ представляет собой описание рабочей документации к интеллектуальной системе поддержки принятия решений по управлению отходами на основе онтологической модели представления знаний и логического вывода на онтологиях. Приводится структура исходных файлов системы, описание классов системы, тестовый пример функционирования системы. В приложениях содержатся руководства пользователя и системного администратора.
+
+Документ включает в себя страниц~---~\totalpages, таблиц~---~\totaltables, приложений~---~\totalappendices.
+
+\CommonKeywords.
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\chapter{Список исходных файлов}
+
+В таблице~\ref{tab:source_files_server} приведен перечень файлов, необходимых для работы серверной части системы, исключая дополнительные (сторонние библиотеки).
+
+\begin{longtable}[l]{|p{5cm}|p{3cm}|p{6.7cm}|}
+\caption{Список файлов, необходимых для работы серверной части системы}
+\label{tab:source_files_server}\tabularnewline
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endfirsthead
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endhead
+\hline
+auth.controller.js & api/controllers & Контроллер аутентификации \tabularnewline
+\hline
+method.controller.js & api/controllers & Контроллер способов управления отходами \tabularnewline
+\hline
+subject.controller.js & api/controllers & Контроллер субъектов управления отходами \tabularnewline
+\hline
+waste.controller.js & api/controllers & Контроллер отходов \tabularnewline
+\hline
+app.js & api/core & Express приложение \tabularnewline
+\hline
+config.js & api/core & Конфигурационный файл сервера \tabularnewline
+\hline
+passport.js & api/core & Настройка аутентификации \tabularnewline
+\hline
+roles.js & api/core & Настройка авторизации на основе ролей \tabularnewline
+\hline
+stardog.js & api/core & Надстройка над библиотекой Stardog \tabularnewline
+\hline
+translations.js & api/core & Настройка интернационализации \tabularnewline
+\hline
+en.json & api/locales & Словарь сообщений на английском языке \tabularnewline
+\hline
+ru.json & api/locales & Словарь сообщений на русском языке \tabularnewline
+\hline
+counter.model.js & api/models & Модель глобального счетчика \tabularnewline
+\hline
+user.model.js & api/models & Модель пользователя \tabularnewline
+\hline
+rdfsbase.storage.js & api/models & Базовый класс для всех хранилищ \tabularnewline
+\hline
+method.storage.js & api/models & Хранилище способов управления отходами \tabularnewline
+\hline
+subject.storage.js & api/models & Хранилище субъектов управления отходами \tabularnewline
+\hline
+waste.storage.js & api/models & Хранилище отходов \tabularnewline
+\hline
+base-ontology.ttl & api/owl & Базовая онтология \tabularnewline
+\hline
+test-ontology.ttl & api/owl & Тестовая онтология \tabularnewline
+\hline
+prod-ontology.ttl & api/owl & Онтология для релиза \tabularnewline
+\hline
+gbuz-ontology.ttl & api/owl & Онтология учреждения ГБУЗ Николаевское ЦРБ \tabularnewline
+\hline
+auth.routes & api/routes & Маршруты для аутентификации \tabularnewline
+\hline
+method.routes & api/routes & Маршруты для способов управления отходами \tabularnewline
+\hline
+subject.routes & api/routes & Маршруты для субъектов управления отходами \tabularnewline
+\hline
+waste.routes & api/routes & Маршруты для отходов \tabularnewline
+\hline
+index.js & api/routes & Конфигурация маршрутов \tabularnewline
+\hline
+common.js & api/tests & Общий настройки для тестирования \tabularnewline
+\hline
+auth.spec.js & api/tests/api & Набор тестов для проверки API аутентификации \tabularnewline
+\hline
+method.spec.js & api/tests/api & Набор тестов для проверки API способов управления отходами \tabularnewline
+\hline
+subject.spec.js & api/tests/api & Набор тестов для проверки API субъектов управления отходами \tabularnewline
+\hline
+waste.spec.js & api/tests/api & Набор тестов для проверки API отходов \tabularnewline
+\hline
+method.storage.spec.js & api/tests/models & Набор тестов для проверки хранилища способов управления отходами \tabularnewline
+\hline
+subject.storage.spec.js & api/tests/models & Набор тестов для проверки хранилища субъектов управления отходами \tabularnewline
+\hline
+waste.storage.spec.js & api/tests/models & Набор тестов для проверки хранилища отходов \tabularnewline
+\hline
+geoUtils.spec.js & api/tests/util & Набор тестов для проверки гео утилит \tabularnewline
+\hline
+owlUtils.spec.js & api/tests/util & Набор тестов для проверки owl утилит \tabularnewline
+\hline
+utils.spec.js & api/tests/util & Набор тестов для проверки утилит \tabularnewline
+\hline
+expressUtils.js & api/util & Набор функций для express приложения \tabularnewline
+\hline
+geoUtils.js & api/util & Набор функций для определения геокоординат \tabularnewline
+\hline
+owlUtils.js & api/util & Набор функций для написания owl запросов \tabularnewline
+\hline
+utils.js & api/util & Набор вспомогательных функций \tabularnewline
+\hline
+bootstrap.js & api & Стартовый файл сервера \tabularnewline
+\hline
+dummy.data.js & api & Стартовые данные для базы данных \tabularnewline
+\end{longtable}
+
+В таблице~\ref{tab:source_files_client} приведен перечень файлов, необходимых для работы клиентской части системы, исключая дополнительные (сторонние библиотеки и картинки).
+
+\begin{longtable}[l]{|p{4cm}|p{5cm}|p{5.7cm}|}
+\caption{Список файлов, необходимых для работы клиентской части системы}
+\label{tab:source_files_client}\tabularnewline
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endfirsthead
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endhead
+\hline
+AppContainer.js & app/components & Компонент контейнера приложения \tabularnewline
+\hline
+CompanyForm.js & app/components & Компонент формы редактирования компании \tabularnewline
+\hline
+CompanyProfile.js & app/components & Компонент профиля компании \tabularnewline
+\hline
+GridContainer.js & app/components & Компонент контейнера таблицы \tabularnewline
+\hline
+Login.js & app/components & Компонент формы входа в систему \tabularnewline
+\hline
+MethodForm.js & app/components & Компонент формы редактирования способа управления отходами \tabularnewline
+\hline
+MethodTypeForm.js & app/components & Компонент формы редактирования вида управления отходами \tabularnewline
+\hline
+NavBreadcrumb.js & app/components & Компонент отображения навигационной цепочки \tabularnewline
+\hline
+NavLink.js & app/components & Компонент навигационной ссылки \tabularnewline
+\hline
+NavMenuItem.js & app/components & Компонент навигационного меню \tabularnewline
+\hline
+NavSidebar.js & app/components & Компонент навигационной панели \tabularnewline
+\hline
+UserForm.js & app/components & Компонент формы редактирования пользователя \tabularnewline
+\hline
+WasteForm.js & app/components & Компонент формы редактирования отходов \tabularnewline
+\hline
+WasteTypeForm.js & app/components & Компонент формы редактирования вида отходов \tabularnewline
+\hline
+app.js & app/core & Приложение \tabularnewline
+\hline
+Entity.js & app/core & Класс сущности ресурса \tabularnewline
+\hline
+errorHandler.js & app/core & Обработчик ошибок \tabularnewline
+\hline
+router.js & app/core & Роутер \tabularnewline
+\hline
+routes.js & app/core & Все маршруты приложения \tabularnewline
+\hline
+session.js & app/core & Пользовательская сессия \tabularnewline
+\hline
+StateRouter.js & app/core & Базовый класс роутера-состояний \tabularnewline
+\hline
+AggregateState.js & app/entities & Класс сущности агрегатного состояния \tabularnewline
+\hline
+Company.js & app/entities & Класс сущности компании \tabularnewline
+\hline
+HazardClass.js & app/entities & Класс сущности класса опасности \tabularnewline
+\hline
+Method.js & app/entities & Класс сущности способа управления отходами \tabularnewline
+\hline
+MethodType.js & app/entities & Класс сущности вида управления отходами \tabularnewline
+\hline
+Origin.js & app/entities & Класс сущности происхождения отходов \tabularnewline
+\hline
+User.js & app/entities & Класс пользователя \tabularnewline
+\hline
+Waste.js & app/entities & Класс сущности отходов \tabularnewline
+\hline
+WasteType.js & app/entities & Класс сущности вида отходов \tabularnewline
+\hline
+CreateRoute.js & app/routes/company & Класс маршрута для создания предприятия \tabularnewline
+\hline
+EditRoute.js & app/routes/company & Класс маршрута для редактирования предприятия \tabularnewline
+\hline
+IndexRoute.js & app/routes/company & Класс маршрута для просмотра всех предприятий \tabularnewline
+\hline
+ShowRoute.js & app/routes/company & Класс маршрута для просмотра предприятия \tabularnewline
+\hline
+LoginRoute.js & app/routes/login & Класс маршрута для входа в систему \tabularnewline
+\hline
+LogoutRoute.js & app/routes/logout & Класс маршрута для выхода из системы \tabularnewline
+\hline
+CreateRoute.js & app/routes/method & Класс маршрута для создания способа управления отходами \tabularnewline
+\hline
+EditRoute.js & app/routes/method & Класс маршрута для редактирования способа управления отходами \tabularnewline
+\hline
+ShowRoute.js & app/routes/method & Класс маршрута для просмотра способа управления отходами \tabularnewline
+\hline
+CreateRoute.js & app/routes/method-type & Класс маршрута для создания вида управления отходами \tabularnewline
+\hline
+EditRoute.js & app/routes/method-type & Класс маршрута для редактирования вида управления отходами \tabularnewline
+\hline
+IndexRoute.js & app/routes/method-type & Класс маршрута для просмотра всех видов управления отходами \tabularnewline
+\hline
+ShowRoute.js & app/routes/method-type & Класс маршрута для просмотра вида управления отходами \tabularnewline
+\hline
+Noatauthorized & app/routes/notauthorized & Класс маршрута для неавторизованных пользователей \tabularnewline
+\hline
+NotfoundRoute & app/routes/notfound & Класс маршрута для не найденных ресурсов \tabularnewline
+\hline
+CreateRoute.js & app/routes/user & Класс маршрута для создания пользователя \tabularnewline
+\hline
+EditRoute.js & app/routes/user & Класс маршрута для редактирования пользователя \tabularnewline
+\hline
+IndexRoute.js & app/routes/user & Класс маршрута для просмотра всех пользователей \tabularnewline
+\hline
+ShowRoute.js & app/routes/user & Класс маршрута для просмотра пользователя \tabularnewline
+\hline
+CreateRoute.js & app/routes/waste & Класс маршрута для создания отходов \tabularnewline
+\hline
+EditRoute.js & app/routes/waste & Класс маршрута для редактирования отходов \tabularnewline
+\hline
+ShowRoute.js & app/routes/waste & Класс маршрута для просмотра отходов \tabularnewline
+\hline
+CreateRoute.js & app/routes/waste-type & Класс маршрута для создания вида отходов \tabularnewline
+\hline
+EditRoute.js & app/routes/waste-type & Класс маршрута для редактирования вида отходов \tabularnewline
+\hline
+IndexRoute.js & app/routes/waste-type & Класс маршрута для просмотра всех видов отходов \tabularnewline
+\hline
+ShowRoute.js & app/routes/waste-type & Класс маршрута для просмотра вида отходов \tabularnewline
+\hline
+index.js & app/routes & Общая точка входа в директорию маршрутов \tabularnewline
+\hline
+main.less & app/styles & Основные стили приложения \tabularnewline
+\hline
+sb-admin-2.less & app/styles & Стили шаблона Sb-Admin-2 \tabularnewline
+\hline
+utils.js & app/util & Вспомогательные функции \tabularnewline
+\hline
+config.js & app & Конфигурационный файл \tabularnewline
+\hline
+index.ejs & app & Шаблон для генерации главной html страницы приложения \tabularnewline
+\hline
+main.js & app & Точка входа приложения \tabularnewline
+\hline
+server.js & app & Вспомогательный сервер \tabularnewline
+\end{longtable}
+
+В таблице~\ref{tab:source_files_common} приведен перечень общих файлов, необходимых как для работы серверной части, так и для работы клиентской части системы.
+
+\begin{longtable}[l]{|p{4cm}|p{5cm}|p{5.7cm}|}
+\caption{Список файлов, необходимых для работы клиентской и серверной части системы}
+\label{tab:source_files_common}\tabularnewline
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endfirsthead
+\hline
+Имя файла & Путь к файлу & Описание \tabularnewline
+\endhead
+\hline
+package.json & / & Конфигурационный файл npm, задающий зависимости от сторонних библиотек \tabularnewline
+\hline
+api.js & /bin/ & Файл, необходимый для запуска серверной части \tabularnewline
+\hline
+server.js & /bin/ & Файл, необходимый для запуска клиентской части \tabularnewline
+\hline
+dev.config.js & /webpack/ & Конфигурационный файл в режиме разработки для сборщика webpack \tabularnewline
+\hline
+prod.config.js & /webpack/ & Конфигурационный файл в режиме релиза для сборщика webpack \tabularnewline
+\hline
+webpack.config.js & /webpack/ & Общий конфигурационный файл для сборщика webpack \tabularnewline
+\hline
+\end{longtable}
+
+Система использует следующие программные пакеты в качестве зависимостей:
+\begin{itemize}
+\item backbone (v1.3.3);
+\item backbone-associations (v0.6.2);
+\item backbone-react-component (v0.10.0);
+\item backbone.radio (v1.0.5);
+\item bcrypt (v0.8.5);
+\item body-parser (v1.15.0);
+\item bootstrap (v3.3.6);
+\item classnames (v2.2.5);
+\item connect-roles (v3.1.2);
+\item cookie-parser (v1.4.1);
+\item cors (v2.7.1);
+\item debug (v2.2.0);
+\item express (v4.13.4);
+\item express-unless (v0.3.0);
+\item font-awesome (v4.6.3);
+\item griddle-react (v0.5.1);
+\item helmet (v2.0.0);
+\item i18n (v0.8.2);
+\item jquery (v2.2.4);
+\item jsonwebtoken (v5.7.0);
+\item md5 (v2.1.0);
+\item method-override (v2.3.5);
+\item mongoose (v4.4.12);
+\item morgan (v1.7.0);
+\item nprogress (v0.2.0);
+\item object-path (v0.9.2);
+\item passport (v0.3.2);
+\item passport-jwt (v2.0.0);
+\item react (v15.0.2);
+\item react-bootstrap (v0.29.4);
+\item react-bootstrap-validation (v0.1.11);
+\item react-dom (v15.0.2);
+\item react-helmet (v3.1.0);
+\item react-progress-2 (v4.2.1);
+\item stardog (v0.3.1);
+\item store (v1.3.20);
+\item underscore (v1.8.3);
+\item underscore.string (v3.3.4).
+\end{itemize}
+
+\chapter{Классы системы}
+
+В таблице~\ref{tab:classes_server} перечислены основные классы серверной части системы с кратким их описанием.
+
+\begin{longtable}[l]{|p{5.5cm}|p{9cm}|}
+\caption{Основные классы серверной части системы}
+\label{tab:classes_server}\tabularnewline
+\hline
+Имя класса & Описание\tabularnewline
+\endfirsthead
+\hline
+Имя класса & Описание\tabularnewline
+\endhead
+\hline
+Stardog & Класс надстройка над библиотекой Stardog  \tabularnewline
+\hline
+RdfBaseStorage & Базовый класс для всех хранилищ \tabularnewline
+\hline
+MethodStorage & Класс хранилище способов управления отходами \tabularnewline
+\hline
+SubjectStorage & Класс хранилище субъектов управления отходами \tabularnewline
+\hline
+WasteStorage & Класс хранилище отходов \tabularnewline
+\end{longtable}
+
+В таблице~\ref{tab:classes_client} перечислены основные классы клиентской части системы.
+
+\begin{longtable}[l]{|p{5.5cm}|p{9cm}|}
+\caption{Основные классы клиентской части системы}
+\label{tab:classes_client}\tabularnewline
+\hline
+Имя класса & Описание\tabularnewline
+\endfirsthead
+\hline
+Имя класса & Описание\tabularnewline
+\endhead
+\hline
+App & Класс приложения \tabularnewline
+\hline
+Model & Класс модели ресурса, получаемой через REST API сервера \tabularnewline
+\hline
+Collection & Класс коллекции ресурсов, получаемых через REST API сервера \tabularnewline
+\hline
+Entity & Класс сущности ресурса \tabularnewline
+\hline
+ErrorHandler & Класс глобального обработчика ошибок \tabularnewline
+\hline
+Router & Класс роутера \tabularnewline
+\hline
+Route & Класс маршрута \tabularnewline
+\hline
+Session & Класс пользовательской сессии \tabularnewline
+\hline
+StateRouter & Базовый класс роутера-состояний \tabularnewline
+\hline
+AppContainer & Класс контейнера приложения \tabularnewline
+\end{longtable}
+
+\chapter{Испытание системы}
+
+Испытание системы происходит на тестовом примере, поставляемым вместе с системой в виде файла онтологии учреждения ГБУЗ «Николаевское ЦРБ» в формате Turtle.
+
+После загрузки онтологии через конфигурационный файл сервера, необходимо выполнить следующую последовательность действий в системе:
+\begin{itemize}
+\item авторизоваться в системе, указав свой логин и пароль;
+\item перейти в профиль конкретного предприятия (в данном случае ГБУЗ Николаевское ЦРБ);
+\item найти стратегию управлению отходами предприятия.
+\end{itemize}
+
+Система должна сгенерировать стратегию управления отходами предприятия, представленную в таблице~\ref{tab:test_results}.
+
+\begin{longtable}[l]{|p{7.5cm}|p{7.5cm}|}
+\caption{Сгенерированная системой стратегия управления отходами предприятия на основе тестовых данных}
+\label{tab:test_results}\tabularnewline
+\hline
+Группа отходов & Эффективные способы обращения \tabularnewline
+\endfirsthead
+\hline
+Группа отходов & Эффективные способы обращения \tabularnewline
+\endhead
+\hline
+Аккумуляторы свинцовые отработанные неповрежденные, с неслитым электролитом;
+Отходы упаковочной бумаги незагрязненные; Обтирочный материал, загрязненный маслами (содержание масел менее 15\%); Остатки и огарки стальных сварочных электродов; Отходы бумаги и картона от канцелярской деятельноти и делопроизводства & ООО Тора (Переработка); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Отходы гипса в кусковой форме; Электрические лампы накаливания отработанные и брак & Николаевское городское коммунальное хозяйство (Захоронение на свалке); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Отходы керамики в кусковой форме; Отходы упаковочного картона незагрязненные; Лом и отходы черных металлов с примесями или загрязненные опасными веществами (тара железная с остатками ЛКМ) & ООО Тора (Переработка); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Отходы лакокрасочных средств (кисти малярные); Ртутные лампы, люминесцентные ртутьсодержащие трубки отработанные и брак; Масла трансмисионные отработанные; Масло моторные отработанные & ООО Экоплюс (Сжигание в печи); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Отходы полиэтилена в виде пленки & Николаевское городское коммунальное хозяйство (Захоронение на свалке); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Отходы потребления на производстве, подобные коммунальным; Покрышки с металлокордом отработанные; Мусор от бытовых помещений организаций несортированный (исключая крупногабаритный); Обрезки и обрывки тканей смешанных & Николаевское городское коммунальное хозяйство (Захоронение на свалке); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Очистки овощного сырья; Пищевые отходы кухонь и организаций общественного питания; Шлак сварочный & Николаевское городское коммунальное хозяйство (Захоронение на свалке); Николаевское городское коммунальное хозяйство (Транспортировка) \tabularnewline
+\hline
+Количество -- 114.27 т & Стоимость -- 409588.2 р \tabularnewline
+\end{longtable}
+
+\appendixdocument{Руководство оператора}
+
+\appendixdocument{Руководство системного программиста}
+
+\end{document}

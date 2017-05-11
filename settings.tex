@@ -1,0 +1,74 @@
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+
+\graphicspath{{figures/}}
+
+\input{common.tex}
+
+% Информация для генерации титульных листов, хедеров и футеров
+\VSTUSetDocumentNumbersPrefix{}
+\VSTUSetDocumentCode{МД-40-461-806-10.19-09.04.04-08-16}
+\VSTUSetDocumentTypeDative{магистерской диссертации}
+\VSTUSetDocumentTypeAccusative{магистерскую диссертацию}
+\VSTUSetDocumentTypeEng{master's thesis}
+\VSTUSetInitialData{задание, выданное научным руководителем кафедры ПОАС, утвержденное приказом ректора университета}
+\VSTUSetOrder{1551--ст}{20}{октябрь}{2014}
+\VSTUSetDeadline{01}{июня}
+\VSTUSetFaculty{Электроники и вычислительной техники}
+\VSTUSetDepartment{Программное обеспечение автоматизированных систем}
+\VSTUSetDepartmentCode{10.19}
+\VSTUSetDirection{09.04.04 Программная инженерия}
+\VSTUSetHeadOfDepartment{Зав. кафедрой ПОАС}{д.т.н., проф.}{А. М. Дворянкин}{Дворянкин Александр Михайлович}
+\VSTUSetDirector{доц. каф. ПОАС}{к.т.н.}{М. Б. Кульцова}{Кульцова Марина Борисовна}
+\VSTUSetStandardsAdviser{ст. преп. каф. ПОАС}{}{О. Н. Ляпина}{Ляпина Ольга Николаевна}
+\VSTUSetReviewer{доц. каф. САПР и ПК}{д.т.н., проф.}{Н. П. Садовникова}{Садовникова Наталья Петровна}
+\VSTUSetStudent{ПРИН-2Н}{Р. Ю. Руднев}{Руднев Роман Юрьевич}{Руднева Романа Юрьевича}
+\VSTUSetStudentFullNameEng{Roman Rudnev}
+\VSTUSetTitle{Интеллектуальная система поддержки принятия  решений  по  управлению  отходами}
+\VSTUSetTitleEng{Intelligent decision support system of waste management}
+
+% Определние цветов
+\definecolor{dimgray}{HTML}{696969}
+\definecolor{silver}{HTML}{C0C0C0}
+\definecolor{darkgray}{HTML}{A9A9A9}
+
+% Определение стилей
+\lstdefinestyle{appendix}{
+xleftmargin=8mm,
+captionpos=b,
+basicstyle=\ttfamily\footnotesize,
+breakatwhitespace=false, 
+breaklines=true,
+keepspaces=true,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,                  
+tabsize=2,
+frame=single,
+numbers=left,
+stepnumber=1,
+numbersep=7pt,
+numberstyle=\footnotesize\color{silver}
+}
+
+\lstdefinestyle{default}{
+basicstyle=\ttfamily\small,
+xleftmargin=8mm,
+breakatwhitespace=false,         
+breaklines=true,                 
+captionpos=b,                    
+keepspaces=true,
+showspaces=false,                
+showstringspaces=false,
+showtabs=false,                  
+tabsize=2,
+}
+
+% Определение поддержки формата Turtle
+\lstdefinelanguage{ttl}{
+sensitive=true,
+morecomment=[l][\color{dimgray}]{@},
+morecomment=[l][\itshape\color{darkgray}]{\#},
+morestring=[b]",
+morekeywords={rdf,rdfs,owl,xsd}
+}
