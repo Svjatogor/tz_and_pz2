@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.24)  13 MAY 2017 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.24)  14 MAY 2017 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,33 +1248,33 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (./pz.aux)
 \openout1 = `pz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+ftm on input line 23.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for T1+ftm on input line 15.
 
 (/usr/local/share/texmf/tex/latex/pscyr/t1ftm.fd
 File: t1ftm.fd 2004/03/23 Fontinst v1.914 font definitions for T1/ftm.
 )
-LaTeX Font Info:    Try loading font information for T2A+ftm on input line 23.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 15.
 
 (/usr/local/share/texmf/tex/latex/pscyr/t2aftm.fd
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
@@ -1366,313 +1366,709 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./pz.toc
+Underfull \hbox (badness 1226) in paragraph at lines 6--6
+[][]\T2A/ftm/m/n/14.4 Интернет-маркетинг и тра^^?ди^^?ци^^?он^^?ный мар^^?ке^^?
+тинг: сход^^?ства и 
+ []
+
 )
-(./TitleCommon.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+ftx on input line 37.
-(/usr/local/share/texmf/tex/latex/pscyr/ot1ftx.fd
-File: ot1ftx.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftx.
-)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Overfull \hbox (16.73004pt too wide) in paragraph at lines 37--37
-\T2A/ftm/m/n/14.4 Направление $[]$ 
- []
-
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Overfull \hbox (0.77489pt too wide) in paragraph at lines 37--37
-\T2A/ftm/m/n/14.4 Студент $[]$ 
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 37--37
-\T2A/ftm/m/n/14.4 Тема |   []   |   []   |   []   |   []   |   []   |   []   | 
-  []
- []
-
-
-Overfull \hbox (0.64064pt too wide) in paragraph at lines 37--37
-\T2A/ftm/m/n/14.4 Срок пред^^?став^^?ле^^?ния го^^?то^^?вой ра^^?бо^^?ты $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
-
-[1
-
-] [2] [3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-[]\T2A/ftm/m/n/14.4 Документ пред^^?став^^?ля^^?ет со^^?бой по^^?яс^^?ни^^?тель
-^^?ную за^^?пис^^?ку к
- []
-
-
-Underfull \hbox (badness 3930) in paragraph at lines 39--40
-\T2A/ftm/m/n/14.4 вы^^?пуск^^?ной ра^^?бо^^?те ба^^?ка^^?лав^^?ра на те^^?му ѕП
-ор^^?ти^^?ро^^?ва^^?ние свер^^?точ^^?ной
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 39--40
-\T2A/ftm/m/n/14.4 ре^^?сур^^?са^^?ми и ре^^?сур^^?са^^?ми па^^?мя^^?тиї, вы^^?п
-ол^^?нен^^?ную сту^^?ден^^?том груп^^?пы
- []
-
-
-Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
-ss on input line 44.
-
-[4
-
-
-] (./pz.toc)
 \tf@toc=\write3
 \openout3 = `pz.toc'.
 
- [5
+ [2
 
 ]
-Underfull \hbox (badness 1163) in paragraph at lines 48--50
-\T2A/ftm/m/n/14.4 при^^?клад^^?ная об^^?ласть ма^^?те^^?ма^^?ти^^?ки цель ко^^?
-то^^?рой изу^^?че^^?ние и раз^^?ви^^?тие
+Underfull \hbox (badness 1264) in paragraph at lines 23--24
+\T2A/ftm/m/n/14.4 тра^^?ди^^?ци^^?он^^?ный мар^^?ке^^?тинг ме^^?ня^^?ет^^?ся, п
+о^^?яв^^?ля^^?ют^^?ся и со^^?зда^^?ют^^?ся но^^?вые
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 48--50
-\T2A/ftm/m/n/14.4 ис^^?кус^^?ствен^^?ных ней^^?рон^^?ных се^^?тей (НС). Ак^^?ту
-^^?аль^^?ность раз^^?ра^^?бо^^?ток и
+Underfull \hbox (badness 3758) in paragraph at lines 23--24
+\T2A/ftm/m/n/14.4 что за^^?ста^^?ви^^?ло ком^^?па^^?нии пе^^?ре^^?ори^^?ен^^?ти
+^^?ро^^?вать свою де^^?я^^?тель^^?ность в
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 48--50
-\T2A/ftm/m/n/14.4 ис^^?сле^^?до^^?ва^^?ний в дан^^?ной об^^?ла^^?сти оправ^^?ды
-^^?ва^^?ет^^?ся при^^?ме^^?не^^?ни^^?ем НС в
+Underfull \hbox (badness 2884) in paragraph at lines 23--24
+\T2A/ftm/m/n/14.4 ком^^?па^^?ни^^?ям не толь^^?ко чет^^?ко вы^^?би^^?рать це^^?
+ле^^?вую ауди^^?то^^?рию, но и
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 48--50
-\T2A/ftm/m/n/14.4 объ^^?ек^^?тов, об^^?ра^^?зов, уне^^?вер^^?са^^?ли^^?за^^?ция
- управ^^?ле^^?ния, про^^?гно^^?зи^^?ро^^?ва^^?ние,
+Underfull \hbox (badness 6575) in paragraph at lines 24--25
+[]\T2A/ftm/m/n/14.4 Тема ис^^?поль^^?зо^^?ва^^?ния ин^^?тер^^?нет-^^?мар^^?ке^^
+?тин^^?га для про^^?дви^^?же^^?ния
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-[]\T2A/ftm/m/n/14.4 Наиболее су^^?ще^^?ствен^^?ным недо^^?стат^^?ком НС яв^^?ля
-^^?ет^^?ся их
+Underfull \hbox (badness 5331) in paragraph at lines 24--25
+\T2A/ftm/m/n/14.4 то^^?ва^^?ров и услуг яв^^?ля^^?ет^^?ся ак^^?ту^^?аль^^?ной, 
+так как в со^^?вре^^?мен^^?ном
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 50--51
-\T2A/ftm/m/n/14.4 тре^^?бо^^?ва^^?тель^^?ность к вы^^?чис^^?ли^^?тель^^?ным ре^
-^?сур^^?сам и ре^^?сур^^?сам па^^?мя^^?ти.
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+\T2A/ftm/m/n/14.4 ин^^?фор^^?ма^^?ци^^?он^^?ном об^^?ще^^?стве ин^^?тер^^?нет-^
+^?мар^^?ке^^?тинг стал наи^^?бо^^?лее
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 50--51
-\T2A/ftm/m/n/14.4 Ча^^?стич^^?но дан^^?ная про^^?бле^^?ма ре^^?ша^^?ет^^?ся ис^
-^?поль^^?зо^^?ва^^?ни^^?ем свер^^?точ^^?ных
+Underfull \hbox (badness 6608) in paragraph at lines 24--25
+\T2A/ftm/m/n/14.4 то^^?ва^^?ра и яв^^?ля^^?ет^^?ся огром^^?ной ба^^?зой для про
+^^?ве^^?де^^?ния раз^^?лич^^?ных
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 51--52
-[]\T2A/ftm/m/n/14.4 Не толь^^?ко ис^^?кус^^?ствен^^?ные ней^^?рон^^?ные се^^?ти
- яв^^?ля^^?ют^^?ся трен^^?дом
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]\T2A/ftm/m/n/14.4 Предмет --- эф^^?фек^^?тив^^?ные тех^^?но^^?ло^^?гии и ин^^
+?стру^^?мен^^?ты
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-[]\T2A/ftm/m/n/14.4 Для до^^?сти^^?же^^?ния по^^?став^^?лен^^?ной це^^?ли необ^
-^?хо^^?ди^^?мо ре^^?шить
+Underfull \hbox (badness 5147) in paragraph at lines 28--29
+[]\T2A/ftm/m/n/14.4 В со^^?от^^?вет^^?ствии с по^^?став^^?лен^^?ной це^^?лью мн
+ою опре^^?де^^?ле^^?ны
  []
 
-[6
+
+Underfull \hbox (badness 1571) in paragraph at lines 30--31
+[]\T2A/ftm/m/n/14.4 Изучить осо^^?бен^^?но^^?сти ин^^?тер^^?нет-^^?мар^^?ке^^?т
+ин^^?га, опре^^?де^^?лить его
+ []
+
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-[]\T2A/ftm/m/n/14.4 Третей раз^^?дел по^^?свя^^?щен раз^^?во^^?ра^^?чи^^?ва^^?н
-ию фрейм^^?вор^^?ка на
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T2A/ftm/m/n/14.4 Показать эф^^?фек^^?тив^^?ность внед^^?ре^^?ния про^^?грам^
+^?мы Google
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\T2A/ftm/m/n/14.4 (Об^^?щая ха^^?рак^^?те^^?ри^^?сти^^?ка Ин^^?тер^^?нет-^^?мар
+^^?ке^^?тин^^?га), ана^^?ли^^?ти^^?че^^?ской
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 35--36
+\T2A/ftm/m/n/14.4 (Ис^^?поль^^?зо^^?ва^^?ние ме^^?то^^?дов ин^^?тер^^?нет-^^?ма
+р^^?ке^^?тин^^?га в кор^^?по^^?ра^^?ции Intel) и
+ []
+
+[4]
+Underfull \hbox (badness 1527) in paragraph at lines 41--42
+[]\T2A/ftm/m/n/14.4 Интернет-маркетинг (ан^^?гл. internet marketing) - это прак
+^^?ти^^?ка
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]\T2A/ftm/m/n/14.4 Интернет-маркетинг яв^^?ля^^?ет^^?ся со^^?став^^?ля^^?ю^^?щ
+ей элек^^?трон^^?ной
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 52--53
+\T2A/ftm/m/n/14.4 ком^^?мер^^?ции. Его так^^?же на^^?зы^^?ва^^?ют online-^^?мар
+^^?ке^^?тин^^?гом. Он мо^^?жет
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 52--53
+\T2A/ftm/m/n/14.4 вклю^^?чать та^^?кие ча^^?сти, как ин^^?тер^^?нет-^^?инте^^?г
+ра^^?ция, ин^^?фор^^?ма^^?ци^^?он^^?ный
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 52--53
+\T2A/ftm/m/n/14.4 до^^?сту^^?па к ин^^?тер^^?не^^?ту и яв^^?ля^^?ют со^^?бой не
+отъ^^?ем^^?ле^^?мую часть лю^^?бой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T2A/ftm/m/n/14.4 пре^^?иму^^?ще^^?ства^^?ми ин^^?тер^^?нет-^^?мар^^?ке^^?тин^^
+?га счи^^?та^^?ют^^?ся ин^^?тер^^?ак^^?тив^^?ность,
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]\T2A/ftm/m/n/14.4 Основным сла^^?га^^?е^^?мым успе^^?ха яв^^?ля^^?ет^^?ся пла
+н мар^^?ке^^?тин^^?га.
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 58--59
+\T2A/ftm/m/n/14.4 Раз^^?ра^^?бо^^?тан^^?ный и внед^^?рен^^?ный вла^^?дель^^?цем
+ в лю^^?бом со^^?вре^^?мен^^?ном
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 58--59
+\T2A/ftm/m/n/14.4 ком^^?мер^^?че^^?ском пред^^?при^^?я^^?тии, будь то тра^^?ди^
+^?ци^^?он^^?ный ма^^?га^^?зин или
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 59--60
+[]\T2A/ftm/m/n/14.4 Забыв о неко^^?то^^?рых осо^^?бен^^?но^^?стях поль^^?зо^^?в
+а^^?те^^?лей ин^^?тер^^?не^^?та,
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 59--60
+\T2A/ftm/m/n/14.4 и при^^?выч^^?ной ма^^?не^^?ре об^^?ще^^?ния, мож^^?но до^^?п
+у^^?стить вто^^?рую ошиб^^?ку,
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 59--60
+\T2A/ftm/m/n/14.4 всем, кто толь^^?ко встре^^?тит^^?ся on-^^?line, бес^^?чис^^?
+лен^^?ных со^^?об^^?ще^^?ний о
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 61--62
+\T2A/ftm/m/n/14.4 и пред^^?став^^?ля^^?ет глав^^?ную про^^?бле^^?му фир^^?мы, р
+е^^?шив^^?шей за^^?ни^^?мать^^?ся
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 62--63
+\T2A/ftm/m/n/14.4 не яв^^?ля^^?ет^^?ся вре^^?мен^^?ным неудоб^^?ством в опре^^?
+де^^?ле^^?нии мар^^?ке^^?тин^^?го^^?вых
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\T2A/ftm/m/n/14.4 под^^?ра^^?зу^^?ме^^?ва^^?ет^^?ся изу^^?че^^?ние рын^^?ка (ра
+з^^?ме^^?ров, де^^?мо^^?гра^^?фи^^?че^^?ских
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 63--64
+\T2A/ftm/m/n/14.4 це^^?ны, ве^^?ро^^?ят^^?ных по^^?ку^^?па^^?те^^?лей и вы^^?ра
+^^?бот^^?ки спо^^?со^^?бов об^^?ще^^?ния с
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 65--66
+\T2A/ftm/m/n/14.4 их чис^^?ло. Наи^^?бо^^?лее рас^^?про^^?стра^^?нен^^?ная оцен
+^^?ка раз^^?ме^^?ра ин^^?тер^^?не^^?та,
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 65--66
+\T2A/ftm/m/n/14.4 к се^^?ти уз^^?ло^^?вых ком^^?пью^^?те^^?ров. Вы^^?чис^^?лить
+ ко^^?ли^^?че^^?ство поль^^?зо^^?ва^^?те^^?лей
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 65--66
+\T2A/ftm/m/n/14.4 в за^^?ви^^?си^^?мо^^?сти от сер^^?ве^^?ров так, что^^?бы ре^
+^?зуль^^?тат со^^?от^^?вет^^?ство^^?вал
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 66--67
+[]\T2A/ftm/m/n/14.4 Пассивностью по^^?тре^^?би^^?те^^?лей. До^^?ста^^?точ^^?но 
+ли знать, что
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 67--68
+[]\T2A/ftm/m/n/14.4 Настоящие про^^?бле^^?мы воз^^?ни^^?ка^^?ют, ко^^?гда вы пы
+^^?та^^?е^^?тесь со^^?об^^?щить
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 67--68
+\T2A/ftm/m/n/14.4 (те^^?ле^^?кон^^?фе^^?рен^^?ции) --- аб^^?со^^?лют^^?но непри
+^^?ем^^?ле^^?мы для рас^^?про^^?стра^^?не^^?ния
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 67--68
+\T2A/ftm/m/n/14.4 непи^^?са^^?ных пра^^?вил немед^^?лен^^?но при^^?во^^?дит к р
+е^^?ак^^?ции со сто^^?ро^^?ны
  []
 
 [7]
-Underfull \hbox (badness 2980) in paragraph at lines 66--67
-\T2A/ftm/m/n/14.4 осо^^?бен^^?но^^?сти и функ^^?ци^^?о^^?наль^^?ные воз^^?мож^^
-?но^^?ти фрейм^^?вор^^?ков глу^^?бо^^?ко
+Underfull \hbox (badness 3000) in paragraph at lines 68--69
+\T2A/ftm/m/n/14.4 ре^^?кла^^?му, и че^^?рез "тор^^?го^^?вые цен^^?тры ком^^?па^
+^?ния из^^?ме^^?ни^^?ла струк^^?ту^^?ру
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 66--67
-\T2A/ftm/m/n/14.4 ма^^?шин^^?но^^?го обу^^?че^^?ния и их срав^^?не^^?ние. Так ж
-е раз^^?дел со^^?дер^^?жит
+Underfull \hbox (badness 1412) in paragraph at lines 69--70
+[]\T2A/ftm/m/n/14.4 Существует мно^^?же^^?ство объ^^?яс^^?не^^?ний, по^^?че^^?м
+у неко^^?то^^?рые элек^^?трон^^?ные
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 67--68
-\T2A/ftm/m/n/14.4 Darknet, как наи^^?бо^^?лее зре^^?лыe, функ^^?ци^^?о^^?наль^^
-?но пол^^?ныe и ши^^?ро^^?ко
+Underfull \hbox (badness 1082) in paragraph at lines 69--70
+\T2A/ftm/m/n/14.4 ма^^?га^^?зи^^?ны тер^^?пят неуда^^?чу (здесь не учи^^?ты^^?в
+а^^?ет^^?ся яв^^?ные недо^^?стат^^?ки:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-\T2A/ftm/m/n/14.4 те^^?сти^^?ро^^?ва^^?ния, на^^?строй^^?ки и раз^^?ра^^?бот^^?
-ки мо^^?же^^?лей с по^^?дроб^^?ной
+Underfull \hbox (badness 1708) in paragraph at lines 69--70
+\T2A/ftm/m/n/14.4 пло^^?хой поль^^?зо^^?ва^^?тель^^?ский ин^^?тер^^?фейс, нехва
+т^^?ки гра^^?фи^^?ки, неудоб^^?но^^?го
+ []
+
+[8]
+Underfull \hbox (badness 4556) in paragraph at lines 74--75
+[]\T2A/ftm/m/n/14.4 несовершенство си^^?стем по^^?ис^^?ка: "Мне был ну^^?жен
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 72--73
-\T2A/ftm/m/n/14.4 что поз^^?во^^?ля^^?ет его ис^^?поль^^?зо^^?вать в про^^?мыш^
-^?лен^^?ном сек^^?то^^?ре. Та^^?кие
- []
-
-[8
-
-]
-Underfull \hbox (badness 2486) in paragraph at lines 73--74
-[]\T2A/ftm/m/n/14.4 Caffe яв^^?ля^^?ет^^?ся мо^^?дуль^^?ным про^^?грамм^^?ным о
-бес^^?пе^^?че^^?ни^^?ем. Что
+Underfull \hbox (badness 1009) in paragraph at lines 74--75
+\T2A/ftm/m/n/14.4 ви^^?део^^?маг^^?ни^^?то^^?фон, но я не со^^?би^^?рал^^?ся пр
+о^^?смат^^?ри^^?вать де^^?сять раз^^?ных
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 74--75
-\T2A/ftm/m/n/14.4 мо^^?де^^?ли в Caffe ис^^?поль^^?зу^^?ет^^?ся кон^^?фи^^?гу^^
-?ра^^?ци^^?он^^?ный файл в фор^^?ма^^?те
+Underfull \hbox (badness 3343) in paragraph at lines 76--77
+\T2A/ftm/m/n/14.4 ком^^?мер^^?че^^?ских со^^?об^^?ще^^?ний, ин^^?тер^^?нет до^^
+?воль^^?но пас^^?си^^?вен в смыс^^?ле
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 75--76
-[]\T2A/ftm/m/n/14.4 В Caffe ис^^?поль^^?зу^^?ет^^?ся пол^^?ное те^^?сто^^?вое п
-о^^?кры^^?тие. Каж^^?дый
+Underfull \hbox (badness 5878) in paragraph at lines 77--78
+[]\T2A/ftm/m/n/14.4 Незнание по^^?тре^^?би^^?те^^?лей. Ес^^?ли разо^^?бра^^?лис
+ь с незна^^?ни^^?ем
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-[]\T2A/ftm/m/n/14.4 Caffe со^^?дер^^?жит пред^^?во^^?ри^^?тель^^?но обу^^?чен^^
-?ные мо^^?де^^?ли для
+Underfull \hbox (badness 1231) in paragraph at lines 77--78
+\T2A/ftm/m/n/14.4 что ска^^?зать о мар^^?ке^^?тин^^?ге, ос^^?но^^?ван^^?ном на 
+до^^?стиг^^?ну^^?тых ре^^?зуль^^?та^^?тах
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 76--77
-\T2A/ftm/m/n/14.4 ака^^?де^^?ми^^?че^^?ских це^^?лей и неком^^?мер^^?че^^?ско^^
-?го ис^^?поль^^?зо^^?ва^^?ния. До^^?ступ^^?ны
+Underfull \hbox (badness 6725) in paragraph at lines 78--79
+\T2A/ftm/m/n/14.4 ин^^?тер^^?нет поз^^?во^^?ля^^?ет осу^^?ще^^?ствить вза^^?и^^
+?мо^^?дей^^?ствие по^^?став^^?щи^^?ков и
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 76--77
-\T2A/ftm/m/n/14.4 свер^^?точ^^?ные НС с ар^^?хи^^?тек^^?ту^^?рой "AlexNet"и ва^
-^?ри^^?а^^?ции дан^^?ной НС,
+Underfull \hbox (badness 2961) in paragraph at lines 80--81
+[]\T2A/ftm/m/n/14.4 Поскольку ин^^?тер^^?нет пред^^?став^^?ля^^?ет со^^?бой со^
+^?вер^^?шен^^?но но^^?вую
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 80--81
+\T2A/ftm/m/n/14.4 ком^^?му^^?ни^^?ка^^?ци^^?он^^?ную сре^^?ду в от^^?ли^^?чие о
+т тра^^?ди^^?ци^^?он^^?ных средств
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 80--81
+\T2A/ftm/m/n/14.4 ин^^?фор^^?ма^^?ции, во мно^^?гих слу^^?ча^^?ях неко^^?то^^?р
+ые при^^?е^^?мы и сред^^?ства
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[]\T2A/ftm/m/n/14.4 При рас^^?смот^^?ре^^?нии мо^^?де^^?ли, ис^^?поль^^?зу^^?ю^
+^?щей для ре^^?кла^^?мы
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 81--82
+\T2A/ftm/m/n/14.4 тра^^?ди^^?ци^^?он^^?ные сред^^?ства мас^^?со^^?вой ин^^?фор^
+^?ма^^?ции, ока^^?зы^^?ва^^?ет^^?ся, что
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 81--82
+\T2A/ftm/m/n/14.4 ре^^?ше^^?ние, сле^^?ду^^?ет ли им зна^^?ко^^?мить^^?ся с кон
+^^?крет^^?ной ре^^?клам^^?ной
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 81--82
+\T2A/ftm/m/n/14.4 ин^^?фор^^?ма^^?ци^^?ей. Та^^?ким об^^?ра^^?зом, ин^^?тер^^?н
+ет транс^^?фор^^?ми^^?ру^^?ет функ^^?цию
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 82--83
+[]\T2A/ftm/m/n/14.4 При ра^^?бо^^?те в ин^^?тер^^?не^^?те фир^^?ма, рас^^?кры^^
+?вая и удо^^?вле^^?тво^^?ряя
  []
 
 [9]
-Underfull \hbox (badness 5203) in paragraph at lines 80--81
-[]\T2A/ftm/m/n/14.4 Реализция пол^^?но^^?стью ос^^?но^^?ва^^?на на C++, что об^
-^?лег^^?ча^^?ет
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+\T2A/ftm/m/n/14.4 по^^?треб^^?но^^?стей кли^^?ен^^?та непо^^?сред^^?ствен^^?но 
+вклю^^?ча^^?ет в се^^?бя
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 80--81
-\T2A/ftm/m/n/14.4 ин^^?те^^?гра^^?цию с встра^^?и^^?ва^^?е^^?мы^^?ми си^^?сте^^
-?ма^^?ми. CPU ре^^?жим поз^^?во^^?ля^^?ет
+Underfull \hbox (badness 2608) in paragraph at lines 85--86
+[]\T2A/ftm/m/n/14.4 Интернет-маркетинг по^^?явил^^?ся в на^^?ча^^?ле 1990-х го^
+^?дов, ко^^?гда
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 81--82
-\T2A/ftm/m/n/14.4 обу^^?че^^?ние. Важ^^?ным пунк^^?том яв^^?ля^^?ет^^?ся по^^?д
-роб^^?ная до^^?ку^^?мен^^?та^^?ция для
+Underfull \hbox (badness 2521) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 про^^?дук^^?тов, сей^^?час идет тор^^?гов^^?ля ин^^?фор^^?ма^
+^?ци^^?он^^?ным про^^?стран^^?ством,
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 84--85
-\T2A/ftm/m/n/14.4 ко^^?то^^?рые на^^?зва^^?ны бло^^?ба^^?ми. Бло^^?бы пред^^?ст
-ав^^?ля^^?ют уни^^?фи^^?ци^^?ро^^?ван^^?ный
+Underfull \hbox (badness 3536) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 про^^?грамм^^?ны^^?ми про^^?дук^^?та^^?ми, биз^^?нес-^^?моде^
+^?ля^^?ми и мно^^?ги^^?ми дру^^?ги^^?ми
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 84--85
-\T2A/ftm/m/n/14.4 ин^^?тер^^?фейс для ра^^?бо^^?ты па^^?мя^^?тью, со^^?дер^^?жа
-^^?щий па^^?ке^^?ты ихоб^^?ра^^?же^^?ний
+Underfull \hbox (badness 2635) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 Рен^^?та^^?бель^^?ность ин^^?ве^^?сти^^?ций воз^^?рос^^?ла, а
+ рас^^?хо^^?ды уда^^?лось сни^^?зить.
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 84--85
-\T2A/ftm/m/n/14.4 Мо^^?де^^?ли со^^?хра^^?ня^^?ют^^?ся как бу^^?фер, ис^^?поль^
-^?зу^^?ю^^?щий про^^?то^^?кол Google
+Underfull \hbox (badness 7777) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 Этот тип мар^^?ке^^?тин^^?га стал ос^^?но^^?вой со^^?вре^^?ме
+н^^?но^^?го ка^^?пи^^?та^^?лиз^^?ма,
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 84--85
-\T2A/ftm/m/n/14.4 несколь^^?ких язы^^?ках. Необ^^?хо^^?ди^^?мые для обу^^?че^^?
-ния огром^^?ные мас^^?си^^?вы
+Underfull \hbox (badness 2368) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 ко^^?то^^?рая поз^^?во^^?ля^^?ет лю^^?бо^^?му, у ко^^?го есть
+ идея, то^^?вар или услу^^?га,
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 85--86
-\T2A/ftm/m/n/14.4 фор^^?маль^^?но^^?му опре^^?де^^?ле^^?нию слоя: он при^^?ни^^
-?ма^^?ет на вход один или
+Underfull \hbox (badness 2903) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 до^^?стичь мак^^?си^^?маль^^?но ши^^?ро^^?кой ауди^^?то^^?рии
+. Ис^^?поль^^?зо^^?ва^^?ние тер^^?ми^^?на
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 85--86
-\T2A/ftm/m/n/14.4 как вы^^?прем^^?лен^^?ная ли^^?ней^^?ная и ло^^?ги^^?че^^?ска
-я, слои по^^?терь, та^^?ких как
+Underfull \hbox (badness 2020) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 "ин^^?тер^^?нет-^^?мар^^?ке^^?тинг"обычно под^^?ра^^?зу^^?ме^
+^?ва^^?ет ис^^?поль^^?зо^^?ва^^?ние стра^^?те^^?гий
  []
 
-[10] [11] [12
 
-] [13
-
-] [14
-
-] [15
+Underfull \hbox (badness 1043) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 пря^^?мых поч^^?то^^?вых рас^^?сыл^^?ках, ра^^?дио и в те^^?л
+е^^?ви^^?зи^^?он^^?ных ре^^?клам^^?ных
+ []
 
 
-] [16
+Underfull \hbox (badness 1755) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 Эти ме^^?то^^?ды ока^^?за^^?лись очень эф^^?фек^^?тив^^?ны^^?
+ми при ис^^?поль^^?зо^^?ва^^?нии в
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 85--86
+\T2A/ftm/m/n/14.4 ин^^?тер^^?не^^?те бла^^?го^^?да^^?ря воз^^?мож^^?но^^?стям т
+оч^^?но от^^?сле^^?жи^^?вать ста^^?ти^^?сти^^?ку,
+ []
+
+[10]
+Underfull \hbox (badness 7433) in paragraph at lines 86--87
+[]\T2A/ftm/m/n/14.4 Основная цель ин^^?тер^^?нет - мар^^?ке^^?тин^^?га - это по
+^^?лу^^?че^^?ние
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 86--87
+\T2A/ftm/m/n/14.4 мак^^?си^^?маль^^?но^^?го эф^^?фек^^?та от по^^?тен^^?ци^^?ал
+ь^^?ной ауди^^?то^^?рии. Услов^^?но, все
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 89--90
+[]\T2A/ftm/m/n/14.4 Не по^^?ис^^?ко^^?вый мар^^?ке^^?тинг, ку^^?да мож^^?но от^
+^?не^^?сти ме^^?дий^^?ную
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 91--92
+\T2A/ftm/m/n/14.4 на^^?сколь^^?ко эф^^?фек^^?тив^^?но ра^^?бо^^?та^^?ет мар^^?к
+е^^?тинг, оку^^?па^^?ют^^?ся ли сред^^?ства
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 91--92
+\T2A/ftm/m/n/14.4 ком^^?плекс мер по ра^^?бо^^?те с сай^^?том вы^^?хо^^?дит за 
+рам^^?ки соб^^?ствен^^?но
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\T2A/ftm/m/n/14.4 информирование ауди^^?то^^?рии о услу^^?гах/^^?про^^?дук^^?
+те, его
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 100--101
+[]\T2A/ftm/m/n/14.4 Подготовка к про^^?дви^^?же^^?нию. На этом эта^^?пе пла^^?н
+и^^?ру^^?ет^^?ся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\T2A/ftm/m/n/14.4 ком^^?па^^?ния по про^^?дви^^?же^^?нию: опре^^?де^^?ле^^?ние 
+ме^^?то^^?дов и спо^^?со^^?бов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\T2A/ftm/m/n/14.4 про^^?дви^^?же^^?ния, аудит сай^^?та, рас^^?чет бюд^^?же^^?та
+, опре^^?де^^?ле^^?ние всех
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 100--101
+\T2A/ftm/m/n/14.4 необ^^?хо^^?ди^^?мых ра^^?бот по под^^?го^^?тов^^?ке сай^^?та
+, опре^^?де^^?ле^^?ние ос^^?нов^^?ных
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 100--101
+\T2A/ftm/m/n/14.4 по^^?ка^^?за^^?те^^?лей эф^^?фек^^?тив^^?но^^?сти ра^^?бо^^?т
+ы сай^^?та, ре^^?клам^^?ных ком^^?па^^?ний.
+ []
+
+[11]
+Underfull \hbox (badness 2818) in paragraph at lines 101--102
+[]\T2A/ftm/m/n/14.4 Подготовка к про^^?дви^^?же^^?нию. На этом эта^^?пе пла^^?н
+и^^?ру^^?ет^^?ся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\T2A/ftm/m/n/14.4 ком^^?па^^?ния по про^^?дви^^?же^^?нию: опре^^?де^^?ле^^?ние 
+ме^^?то^^?дов и спо^^?со^^?бов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\T2A/ftm/m/n/14.4 про^^?дви^^?же^^?ния, аудит сай^^?та, рас^^?чет бюд^^?же^^?та
+, опре^^?де^^?ле^^?ние всех
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 101--102
+\T2A/ftm/m/n/14.4 необ^^?хо^^?ди^^?мых ра^^?бот по под^^?го^^?тов^^?ке сай^^?та
+, опре^^?де^^?ле^^?ние ос^^?нов^^?ных
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 101--102
+\T2A/ftm/m/n/14.4 по^^?ка^^?за^^?те^^?лей эф^^?фек^^?тив^^?но^^?сти ра^^?бо^^?т
+ы сай^^?та, ре^^?клам^^?ных ком^^?па^^?ний.
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 102--103
+\T2A/ftm/m/n/14.4 из^^?ме^^?не^^?ний в план дей^^?ствий. С са^^?мо^^?го на^^?ча
+^^?ла ве^^?дет^^?ся кон^^?троль
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[]\T2A/ftm/m/n/14.4 Использование Ин^^?тер^^?не^^?та при^^?вно^^?сит но^^?вые о
+со^^?бен^^?но^^?сти
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 105--106
+\T2A/ftm/m/n/14.4 и пре^^?иму^^?ще^^?ства по срав^^?не^^?нию с мар^^?ке^^?тин^^
+?гом, ос^^?но^^?ван^^?ном на
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 108--109
+\T2A/ftm/m/n/14.4 про^^?из^^?во^^?ди^^?те^^?лей к по^^?тре^^?би^^?те^^?лям. Ин^
+^?тер^^?нет сде^^?лал ре^^?аль^^?но^^?стью для
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 108--109
+\T2A/ftm/m/n/14.4 в то же вре^^?мя он дал воз^^?мож^^?ность то^^?му же поль^^?з
+о^^?ва^^?те^^?лю за
+ []
+
+[12]
+Underfull \hbox (badness 6332) in paragraph at lines 109--110
+[]\T2A/ftm/m/n/14.4 Глобализация де^^?я^^?тель^^?но^^?сти и сни^^?же^^?ние тран
+^^?зак^^?ци^^?он^^?ных
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 110--111
+[]\T2A/ftm/m/n/14.4 Интернет зна^^?чи^^?тель^^?но из^^?ме^^?ня^^?ет про^^?стран
+^^?ствен^^?ный и вре^^?мен^^?ной
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 110--111
+\T2A/ftm/m/n/14.4 мас^^?шта^^?бы ве^^?де^^?ния ком^^?мер^^?ции. Он яв^^?ля^^?ет
+^^?ся гло^^?баль^^?ным сред^^?ством
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 110--111
+\T2A/ftm/m/n/14.4 от нее, в про^^?ти^^?во^^?по^^?лож^^?ность тра^^?ди^^?ци^^?он
+^^?ным сред^^?ствам, где эта
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 110--111
+\T2A/ftm/m/n/14.4 за^^?ви^^?си^^?мость пря^^?мо про^^?пор^^?ци^^?о^^?наль^^?на.
+ Та^^?ким об^^?ра^^?зом, элек^^?трон^^?ная
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 110--111
+\T2A/ftm/m/n/14.4 ком^^?мер^^?ция поз^^?во^^?ля^^?ет да^^?же са^^?мым мел^^?ким
+ по^^?став^^?щи^^?кам до^^?сти^^?гать
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 110--111
+\T2A/ftm/m/n/14.4 то^^?ва^^?ры или услу^^?ги неза^^?ви^^?си^^?мо от гео^^?гра^^
+?фи^^?че^^?ско^^?го рас^^?по^^?ло^^?же^^?ния.
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 111--112
+[]\T2A/ftm/m/n/14.4 Временной мас^^?штаб в ин^^?тер^^?не^^?те так^^?же зна^^?чи
+^^?тель^^?но от^^?ли^^?ча^^?ет^^?ся от
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 112--113
+[]\T2A/ftm/m/n/14.4 Названные эф^^?фек^^?ты так^^?же при^^?во^^?дят к зна^^?чи^
+^?тель^^?но^^?му со^^?кра^^?ще^^?нию
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 112--113
+\T2A/ftm/m/n/14.4 и под^^?дер^^?жа^^?ни^^?ем вза^^?и^^?мо^^?дей^^?ствия меж^^?д
+у ком^^?па^^?ни^^?ей, ее за^^?каз^^?чи^^?ка^^?ми
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+\T2A/ftm/m/n/14.4 с тра^^?ди^^?ци^^?он^^?ны^^?ми сред^^?ства^^?ми, ста^^?но^^?в
+ит^^?ся ми^^?ни^^?маль^^?ной, а их
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 113--114
+[]\T2A/ftm/m/n/14.4 Персонализация вза^^?и^^?мо^^?дей^^?ствия и пе^^?ре^^?ход к
+ мар^^?ке^^?тин^^?гу
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 114--115
+[]\T2A/ftm/m/n/14.4 Используя сред^^?ства элек^^?трон^^?но^^?го вза^^?и^^?мо^^?
+дей^^?ствия, ком^^?па^^?нии мо^^?гут
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+\T2A/ftm/m/n/14.4 за^^?каз^^?чи^^?ка и ав^^?то^^?ма^^?ти^^?че^^?ски предо^^?ста
+в^^?лять про^^?дук^^?ты и услу^^?ги,
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 114--115
+\T2A/ftm/m/n/14.4 со^^?от^^?вет^^?ству^^?ю^^?щие ин^^?ди^^?ви^^?ду^^?аль^^?ным 
+тре^^?бо^^?ва^^?ни^^?ям. Од^^?ним из про^^?стых
+ []
+
+[13]
+Underfull \hbox (badness 3058) in paragraph at lines 117--117
+[]\T2A/ftm/m/n/14.4 Таблица 1 --- Срав^^?не^^?ние мас^^?со^^?во^^?го мар^^?ке^^
+?тин^^?га и мар^^?ке^^?тин^^?га
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 135--136
+\T2A/ftm/m/n/14.4 взять на се^^?бя функ^^?ции, тра^^?ди^^?ци^^?он^^?но вы^^?пол
+^^?ня^^?е^^?мые спе^^?ци^^?а^^?ли^^?ста^^?ми
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 135--136
+\T2A/ftm/m/n/14.4 воз^^?мож^^?но^^?стью вза^^?и^^?мо^^?дей^^?ствия с по^^?тре^^
+?би^^?те^^?ля^^?ми и од^^?но^^?вре^^?мен^^?но
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+\T2A/ftm/m/n/14.4 элек^^?трон^^?ным спо^^?со^^?бом. При этом путь до^^?став^^?к
+и со^^?кра^^?ща^^?ет^^?ся
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 136--137
+\T2A/ftm/m/n/14.4 жур^^?на^^?лы и га^^?зе^^?ты), ин^^?фор^^?ма^^?ции, средств о
+бу^^?че^^?ния и эф^^?фек^^?тив^^?но
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 139--140
+\T2A/ftm/m/n/14.4 дав^^?но. Соб^^?ствен^^?но, боль^^?шин^^?ство ин^^?тер^^?нет-
+^^?про^^?ек^^?тов и воз^^?ни^^?ка^^?ло с
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 139--140
+\T2A/ftm/m/n/14.4 рас^^?че^^?том на ре^^?кла^^?му, по^^?это^^?му мно^^?гие на^^
+?зы^^?ва^^?ют ее "дви^^?га^^?те^^?лем
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 139--140
+\T2A/ftm/m/n/14.4 ин^^?тер^^?не^^?та". Ос^^?нов^^?ную мас^^?су ре^^?кла^^?мо^^?
+да^^?те^^?лей в рос^^?сий^^?ской ча^^?сти
+ []
+
+[15] [16] [17
+
+] [18
+
+] [19
+
+] [20
+
+
+] [21
 
 ] (./pz.aux) ) 
 Here is how much of TeX's memory you used:
- 10406 strings out of 493013
- 147811 string characters out of 6135682
- 257776 words of memory out of 5000000
- 13575 multiletter control sequences out of 15000+600000
- 22359 words of font info for 50 fonts, out of 8000000 for 9000
+ 10309 strings out of 493013
+ 146372 string characters out of 6135682
+ 257605 words of memory out of 5000000
+ 13526 multiletter control sequences out of 15000+600000
+ 8011 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,11n,47p,1562b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,12n,47p,2801b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/share/texmf/fonts/enc/dvips/pscyr/t2a.enc}</usr/local
 /share/texmf/fonts/type1/public/pscyr/times.pfb>
-Output written on pz.pdf (17 pages, 58420 bytes).
+Output written on pz.pdf (21 pages, 63172 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

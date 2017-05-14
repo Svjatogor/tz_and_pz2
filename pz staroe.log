@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.24)  13 MAY 2017 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.24)  14 MAY 2017 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1245,8 +1245,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count152
 \c@blind@pangramcount=\count153
 \c@blind@pangrammax=\count154
-)
-No file "pz staroe".aux.
+) (./pz staroe.aux)
 \openout1 = `"pz staroe.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1265,6 +1264,7 @@ LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1430,11 +1430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
 [1
 
-] [2]
-
-LaTeX Warning: Reference `reftotalpages' on page 3 undefined on input line 37.
-
-[3
+] [2] [3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
@@ -1455,31 +1451,19 @@ Underfull \hbox (badness 2401) in paragraph at lines 39--40
  []
 
 
-LaTeX Warning: Reference `reftotalpages' on page 4 undefined on input line 41.
-
-
-LaTeX Warning: Reference `reftotalfigures' on page 4 undefined on input line 41
-.
-
-
-LaTeX Warning: Reference `reftotaltables' on page 4 undefined on input line 41.
-
-
-
 Package Fancyhdr Warning: \fancyhf's `E' option without twoside option is usele
 ss on input line 44.
 
 [4
 
 
-]
-No file "pz staroe".toc.
+] (./pz staroe.toc [5
+
+])
 \tf@toc=\write3
 \openout3 = `"pz staroe.toc"'.
 
-[5
-
-]
+ [6]
 Underfull \hbox (badness 1163) in paragraph at lines 48--50
 \T2A/ftm/m/n/14.4 при^^?клад^^?ная об^^?ласть ма^^?те^^?ма^^?ти^^?ки цель ко^^?
 то^^?рой изу^^?че^^?ние и раз^^?ви^^?тие
@@ -1533,9 +1517,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 ^?хо^^?ди^^?мо ре^^?шить
  []
 
-[6
+[7
 
-] [7]
+] [8]
 Underfull \hbox (badness 3058) in paragraph at lines 72--73
 []\T2A/ftm/m/n/14.4 На дан^^?ный мо^^?мент су^^?ще^^?ству^^?ет мно^^?же^^?ство 
 ти^^?пов во^^?про^^?сов
@@ -1559,7 +1543,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 76--77
 ^?ет^^?ся ис^^?поль^^?зо^^?ва^^?ни^^?ем дан^^?ной
  []
 
-[8
+[9
 
 ]
 Underfull \hbox (badness 1142) in paragraph at lines 77--78
@@ -1592,9 +1576,6 @@ Underfull \hbox (badness 1199) in paragraph at lines 79--80
  []
 
 
-LaTeX Warning: Citation `1' on page 9 undefined on input line 84.
-
-
 Underfull \hbox (badness 6380) in paragraph at lines 84--85
 []\T2A/ftm/m/n/14.4 В пла^^?гине при^^?сут^^?ству^^?ет ча^^?стич^^?ная воз^^?мо
 ж^^?ность опи^^?са^^?ния
@@ -1606,7 +1587,7 @@ Underfull \hbox (badness 1308) in paragraph at lines 86--87
 з^^?мож^^?ность ука^^?зать
  []
 
-[9]
+[10]
 Underfull \hbox (badness 2582) in paragraph at lines 89--90
 []\T2A/ftm/m/n/14.4 Не смот^^?ря на то, что си^^?сте^^?ма не под^^?хо^^?дит для
  ре^^?ше^^?ния
@@ -1617,9 +1598,6 @@ Underfull \hbox (badness 1577) in paragraph at lines 89--90
 \T2A/ftm/m/n/14.4 обу^^?че^^?ния раз^^?лич^^?ным пред^^?ме^^?там и об^^?ра^^?бо
 т^^?ки ре^^?зуль^^?та^^?та от^^?ве^^?та на
  []
-
-
-LaTeX Warning: Citation `2' on page 10 undefined on input line 93.
 
 
 Underfull \hbox (badness 4096) in paragraph at lines 93--94
@@ -1669,14 +1647,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 95--96
 б^^?ра^^?бот^^?ке
  []
 
-[10]
-
-LaTeX Warning: Citation `3' on page 11 undefined on input line 99.
-
-
-LaTeX Warning: Citation `4' on page 11 undefined on input line 99.
-
-
+[11]
 Underfull \hbox (badness 1389) in paragraph at lines 99--100
 []\T2A/ftm/m/n/14.4 Плагин Correct Writing так^^?же яв^^?ля^^?ет^^?ся раз^^?ра^
 ^?бот^^?кой ка^^?фед^^?ры
@@ -1706,7 +1677,7 @@ Underfull \hbox (badness 3803) in paragraph at lines 105--106
 х ре^^?зуль^^?та^^?тов
  []
 
-[11]
+[12]
 Underfull \hbox (badness 4608) in paragraph at lines 106--107
 []\T2A/ftm/m/n/14.4 Все ана^^?ли^^?зи^^?ру^^?е^^?мые си^^?сте^^?мы (PMatch, Pre
 g, CorrectWriting)
@@ -1717,9 +1688,6 @@ Underfull \hbox (badness 1259) in paragraph at lines 106--107
 \T2A/ftm/m/n/14.4 яв^^?ля^^?ют^^?ся пла^^?ги^^?на^^?ми для СДО Moodle, сле^^?до
 ^^?ва^^?тель^^?но, из про^^?цес^^?са
  []
-
-
-LaTeX Warning: Citation `5' on page 12 undefined on input line 108.
 
 
 Underfull \hbox (badness 1248) in paragraph at lines 108--109
@@ -1750,12 +1718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
-[12]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 122.
-
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 []\T2A/ftm/m/n/14.4 разработать ал^^?го^^?ритм опре^^?де^^?ле^^?ния наи^^?луч^^
 ?ше^^?го по^^?ряд^^?ка
@@ -1767,14 +1730,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 133--134
 о вы^^?брать те
  []
 
-[13]
-
-LaTeX Warning: Reference `component' on page 14 undefined on input line 139.
-
-
-LaTeX Warning: Citation `6' on page 14 undefined on input line 139.
-
-<component.png, id=55, 940.26282pt x 750.55406pt>
+[14] <component.png, id=57, 940.26282pt x 750.55406pt>
 File: component.png Graphic file (type png)
  <use component.png>
 Package pdftex.def Info: component.png used on input line 141.
@@ -1785,15 +1741,9 @@ Underfull \hbox (badness 3965) in paragraph at lines 139--145
 ?но от^^?ра^^?жа^^?ет
  []
 
+[15
 
-LaTeX Warning: Reference `dfd' on page 14 undefined on input line 145.
-
-
-LaTeX Warning: Citation `7' on page 14 undefined on input line 145.
-
-[14
-
- <./component.png>] <dfd1.png, id=61, 744.7825pt x 283.0575pt>
+ <./component.png>] <dfd1.png, id=63, 744.7825pt x 283.0575pt>
 File: dfd1.png Graphic file (type png)
 
 <use dfd1.png>
@@ -1829,22 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--155
 ^^?тор опре^^?де^^?ля^^?ю^^?щий по^^?ря^^?док
  []
 
-[15 <./dfd1.png>]
-
-LaTeX Warning: Citation `8' on page 16 undefined on input line 164.
-
-
-LaTeX Warning: Citation `9' on page 16 undefined on input line 164.
-
-
-LaTeX Warning: Reference `rules' on page 16 undefined on input line 165.
-
-[16]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 2 on input line 208.
-
-[17]
+[16 <./dfd1.png>] [17] [18]
 Underfull \hbox (badness 4193) in paragraph at lines 209--210
 []\T2A/ftm/m/n/14.4 Для опре^^?де^^?ле^^?ния пе^^?ре^^?чис^^?ле^^?ний в слож^^?
 ных слу^^?ча^^?ях, ко^^?гда
@@ -1868,7 +1803,7 @@ Underfull \hbox (badness 2334) in paragraph at lines 222--223
  пе^^?ре^^?чис^^?ле^^?ний в эта^^?лон^^?ном
  []
 
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []\T2A/ftm/m/n/14.4 проверить от^^?сут^^?ствие пе^^?ре^^?се^^?че^^?ний эле^^?ме
 н^^?тов, внут^^?ри
@@ -1899,34 +1834,28 @@ Underfull \hbox (badness 3323) in paragraph at lines 238--239
  []
 
 
-LaTeX Warning: Reference `apvp' on page 19 undefined on input line 244.
-
-
 Underfull \hbox (badness 1137) in paragraph at lines 244--245
 []\T2A/ftm/m/n/14.4 Алгоритм по^^?ис^^?ка по^^?ряд^^?ка из^^?ме^^?не^^?ния пе^^
 ?ре^^?чис^^?ле^^?ний с уче^^?том
  []
 
-<apvp.png, id=76, 365.86688pt x 639.13782pt>
+<apvp.png, id=78, 365.86688pt x 639.13782pt>
 File: apvp.png Graphic file (type png)
  <use apvp.png>
 Package pdftex.def Info: apvp.png used on input line 247.
 (pdftex.def)             Requested size: 241.86925pt x 422.52342pt.
- [19] [20 <./apvp.png>]
+ [20] [21 <./apvp.png>]
 Underfull \hbox (badness 1430) in paragraph at lines 258--259
 []\T2A/ftm/m/n/14.4 если в пред^^?ло^^?же^^?нии для каж^^?до^^?го пе^^?ре^^?чис
 ^^?ле^^?ния эле^^?мен^^?ты
  []
 
-
-LaTeX Warning: Reference `apvp1' on page 21 undefined on input line 260.
-
-<apvp1.png, id=84, 377.91188pt x 663.22781pt>
+<apvp1.png, id=86, 377.91188pt x 663.22781pt>
 File: apvp1.png Graphic file (type png)
  <use apvp1.png>
 Package pdftex.def Info: apvp1.png used on input line 262.
 (pdftex.def)             Requested size: 240.75562pt x 422.52342pt.
- [21 <./apvp1.png>]
+ [22 <./apvp1.png>]
 Underfull \hbox (badness 1803) in paragraph at lines 271--272
 \T2A/ftm/m/n/14.4 под^^?хо^^?дя^^?щих по^^?ряд^^?ков. Так как мы срав^^?ни^^?ва
 ^^?ем два от^^?ве^^?та меж^^?ду
@@ -1944,10 +1873,7 @@ Underfull \hbox (badness 1668) in paragraph at lines 271--272
 и^^?боль^^?шую об^^?щую часть двух
  []
 
-
-LaTeX Warning: Reference `avnpp' on page 22 undefined on input line 272.
-
-[22] <avnpp.png, id=92, 614.295pt x 618.81187pt>
+[23] <avnpp.png, id=94, 614.295pt x 618.81187pt>
 File: avnpp.png Graphic file (type png)
  <use avnpp.png>
 Package pdftex.def Info: avnpp.png used on input line 275.
@@ -1973,7 +1899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--290
 
  []
 
-[23 <./avnpp.png>]
+[24 <./avnpp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 290--300
 
  []
@@ -2001,7 +1927,7 @@ Underfull \hbox (badness 3482) in paragraph at lines 301--302
 поль^^?зу до^^?бав^^?ле^^?ния опи^^?са^^?ния
  []
 
-[24]
+[25]
 Underfull \hbox (badness 1436) in paragraph at lines 315--317
 \T2A/ftm/m/n/14.4 к фор^^?ме со^^?зда^^?ния и ре^^?дак^^?ти^^?ро^^?ва^^?ния во^
 ^?про^^?са ок^^?на ре^^?дак^^?ти^^?ро^^?ва^^?ния
@@ -2020,28 +1946,10 @@ Underfull \hbox (badness 4108) in paragraph at lines 317--318
  []
 
 
-LaTeX Warning: Citation `10' on page 25 undefined on input line 319.
-
-
-LaTeX Warning: Citation `11' on page 25 undefined on input line 319.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 319--320
 []\T2A/ftm/m/n/14.4 Модуль раз^^?ра^^?ба^^?ты^^?вал^^?ся с ис^^?поль^^?зо^^?ва^
 ^?ни^^?ем
  []
-
-
-LaTeX Warning: Citation `12' on page 25 undefined on input line 320.
-
-
-LaTeX Warning: Citation `13' on page 25 undefined on input line 320.
-
-
-LaTeX Warning: Citation `14' on page 25 undefined on input line 320.
-
-
-LaTeX Warning: Citation `15' on page 25 undefined on input line 321.
 
 
 Underfull \hbox (badness 4686) in paragraph at lines 321--322
@@ -2050,33 +1958,22 @@ Underfull \hbox (badness 4686) in paragraph at lines 321--322
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 321--322
+Underfull \hbox (badness 2401) in paragraph at lines 321--322
 \T2A/ftm/m/n/14.4 с ис^^?поль^^?зо^^?ва^^?ни^^?ем биб^^?лио^^?те^^?ки Yui [[]],
  яв^^?ля^^?ю^^?щий^^?ся офи^^?ци^^?аль^^?ной
  []
 
+[26
 
-LaTeX Warning: Reference `class' on page 25 undefined on input line 322.
-
-[25
-
-] <class.png, id=106, 1385.175pt x 705.38531pt>
+] <class.png, id=108, 1385.175pt x 705.38531pt>
 File: class.png Graphic file (type png)
  <use class.png>
 Package pdftex.def Info: class.png used on input line 325.
 (pdftex.def)             Requested size: 455.24411pt x 231.81993pt.
 
-
-LaTeX Warning: Reference `am' on page 26 undefined on input line 329.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3 on input line 344.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 345--346
@@ -2101,17 +1998,13 @@ Underfull \hbox (badness 1728) in paragraph at lines 346--347
 ^^?ряд^^?ка лек^^?сем для эта^^?лон^^?но^^?го
  []
 
-[26 <./class.png>]
-
-LaTeX Warning: Reference `sequence' on page 27 undefined on input line 349.
-
-<tzsequence.png, id=111, 742.27313pt x 762.59906pt>
+[27 <./class.png>] <tzsequence.png, id=113, 742.27313pt x 762.59906pt>
 File: tzsequence.png Graphic file (type png)
- <use tzsequence.png>
+
+<use tzsequence.png>
 Package pdftex.def Info: tzsequence.png used on input line 351.
 (pdftex.def)             Requested size: 455.24411pt x 467.72147pt.
-
-[27 <./tzsequence.png>]
+ [28 <./tzsequence.png>]
 Underfull \hbox (badness 2495) in paragraph at lines 363--364
 []\T2A/ftm/m/n/14.4 Модуль вы^^?дер^^?жал те^^?сти^^?ро^^?ва^^?ние гра^^?фи^^?ч
 е^^?ско^^?го ин^^?тер^^?фей^^?са и
@@ -2135,7 +2028,7 @@ Underfull \hbox (badness 4341) in paragraph at lines 372--373
 тью, эле^^?мен^^?та^^?ми
  []
 
-[28]
+[29]
 Underfull \hbox (badness 1275) in paragraph at lines 395--396
 []\T2A/ftm/m/n/14.4 Для CorrectWriting ис^^?поль^^?зу^^?ет^^?ся пол^^?ный пе^^?
 ре^^?бор, ко^^?ли^^?че^^?ство
@@ -2177,7 +2070,7 @@ Underfull \hbox (badness 2134) in paragraph at lines 409--410
 ^^?яв^^?ля^^?е^^?мой
  []
 
-[29]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T2A/ftm/m/n/14.4 объ^^?ектно-^^?ори^^?ен^^?ти^^?ро^^?ван^^?но^^?го про^^?грам^
 ^?ми^^?ро^^?ва^^?ния, под^^?дер^^?жи^^?ва^^?ет и
@@ -2195,7 +2088,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--425
 ?ва^^?ний сле^^?ду^^?ет
  []
 
-[30]
+[31]
 Underfull \hbox (badness 2088) in paragraph at lines 428--429
 []\T2A/ftm/m/n/14.4 В хо^^?де дан^^?ной ра^^?бо^^?ты бы^^?ли ис^^?сле^^?до^^?ва
 ^^?ны спе^^?ци^^?фи^^?ка^^?ции и
@@ -2225,7 +2118,7 @@ Underfull \hbox (badness 1917) in paragraph at lines 431--432
 ду^^?ля в тип во^^?про^^?са
  []
 
-[31
+[32
 
 ]
 Underfull \hbox (badness 6658) in paragraph at lines 436--437
@@ -2263,7 +2156,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 444--445
 фак^^?то^^?ринг.
  []
 
-[32
+[33
 
 
 ]
@@ -2287,37 +2180,29 @@ Underfull \hbox (badness 2173) in paragraph at lines 449--450
 []\T2A/ftm/m/n/14.4 YUI API Docs [Electronic resource]. - Mode of access :
  []
 
-[33]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-[34
+[34] [35
 
 ] (./pz staroe.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  10475 strings out of 493013
- 148623 string characters out of 6135682
- 258732 words of memory out of 5000000
- 13635 multiletter control sequences out of 15000+600000
- 24520 words of font info for 54 fonts, out of 8000000 for 9000
+ 148634 string characters out of 6135682
+ 259090 words of memory out of 5000000
+ 13634 multiletter control sequences out of 15000+600000
+ 23053 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,12n,47p,1421b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,12n,47p,1421b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/share/
 texmf/fonts/enc/dvips/pscyr/t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/local/share/texmf/fonts/type1/public/pscyr/
-textb19.pfb></usr/local/share/texmf/fonts/type1/public/pscyr/times.pfb></usr/lo
-cal/share/texmf/fonts/type1/public/pscyr/timesbd.pfb>
-Output written on "pz staroe.pdf" (35 pages, 772349 bytes).
+textb19.pfb></usr/local/share/texmf/fonts/type1/public/pscyr/times.pfb>
+Output written on "pz staroe.pdf" (36 pages, 770679 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 154 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
